@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：golang 系统设计指标聚合计算存储选型对比
+简介：golang channel 关闭规则与坑点，关闭已经关闭 channel 会 panic，判断 channel 是否关闭正确写法。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/51590694.shtml
+
+原标题：golang 系统设计定时任务失败重试告警实现
+简介：线程池拒绝策略任务丢失防护，合理设置线程池拒绝策略，处理任务队列满场景，避免业务任务直接丢失。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/76946249.shtml
+
+原标题：Nginx 反向代理路由配置实战
+简介：业务接口幂等完整落地案例，完整业务场景幂等落地示例，覆盖表单提交、回调、重试各类场景。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/07269475.shtml
+
+原标题：golang 系统设计重试退避策略业务落地
+简介：数据库死锁成因规避方案，讲解数据库死锁产生条件，给出业务层面规避手段，减少死锁事件发生。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/73793402.shtml
+
+原标题：golang alertmanager 钉钉告警推送
+简介：依赖安装失败全方位排错，从网络、镜像源、权限、版本多角度，定位依赖安装失败，给出对应修复手段。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/17161390.shtml
+
+原标题：golang mysql 行锁表锁场景区分
+简介：golang 分布式追踪全链路日志打印，日志打印 traceId，各个服务日志可串联，排查跨服务调用问题。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/47793612.shtml
+
+原标题：零基础理解HTTP常用请求头与状态码
+简介：golang go‑zero api 接口开发与路由，go‑zero 编写 api 定义文件，生成代码开发 http 接口。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/30460201.shtml
+
+原标题：API 大版本不兼容平滑迁移
+简介：golang go 单二进制文件静态编译交叉编译，交叉编译不同操作系统架构二进制文件，实现一次编译多平台运行。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/41504736.shtml
+
+原标题：golang 系统设计契约测试接口兼容性保障思路
+简介：golang 字符串处理常用技巧汇总，字符串拼接、分割、替换、类型转换实操，规避字符串高频错误。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/17172495.shtml
+
+原标题：Issue：文件句柄耗尽，服务缓慢卡死复盘
+简介：golang rabbitmq go 客户端生产消费，streadway/amqp 实现 rabbitmq 生产者消费者，队列交换机绑定。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/96359484.shtml
+
+原标题：golang 系统设计 webhook 回调接口设计要点
+简介：golang go 单二进制文件静态编译交叉编译，交叉编译不同操作系统架构二进制文件，实现一次编译多平台运行。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/74825947.shtml
+
+原标题：内存溢出问题现象识别排查
+简介：golang 容器健康检查接口开发，Go 开发 HTTP 健康接口，供容器编排工具探测实例存活状态。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/25359281.shtml
+
+原标题：Redis 大 key 拆分集群卡顿解决
+简介：express 请求参数校验处理，接入参数校验库，校验入参，拦截非法参数，提前拦截错误请求。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/96068683.shtml
+
+原标题：golang md5 sha 加密工具实现
+简介：golang 链路追踪简易实现方案，简易链路追踪实现，传递 traceId，记录调用链路，方便排查慢调用。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/51814736.shtml
+
+原标题：golang 系统设计主干开发 trunk‑based 讲解
+简介：golang 数据库连接池参数调优详解，最大连接空闲连接最大生命周期，结合业务合理配置避免资源浪费。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/30515705.shtml
+
+原标题：golang kafka 消费者偏移量管理
+简介：golang go 输入数据校验防御，所有外部入参严格校验长度格式，防止恶意输入造成业务异常。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/18277461.shtml
+
+原标题：Hands‑on：手写简易ORM框架理解底层原理
+简介：golang http 代理客户端配置，Go HTTP Client 配置代理，通过代理服务器发起网络请求。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/51613917.shtml
+
+原标题：前端下载导出文件功能实现
+简介：ORM 隐式慢查询问题规避，识别 ORM 框架隐式查询，避免循环查询数据库，减少不必要慢 SQL 产生。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/06161402.shtml
+
+原标题：golang 系统设计消息重试次数间隔策略设置
+简介：golang mysql 慢查询日志程序采集解析，程序读取解析 mysql 慢查询日志，统计慢 SQL 做监控告警。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/73723918.shtml
+
+原标题：WebSocket 断线重连稳定优化
+简介：正则表达式优化 CPU 占满问题，优化正则表达式写法，避免回溯，防止正则运算 CPU 占用 100%。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/26359130.shtml
+
+原标题：大事务拆分防止连接池耗尽
+简介：业务错误码体系设计方案，设计项目统一错误码，区分不同业务异常，标准化错误返回，便于前端识别处理。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/29381016.shtml
+
+原标题：golang 系统设计 span 埋点业务代码最小侵入思路
+简介：golang init 函数合理使用边界，少用 init，优先显式调用初始化，便于控制初始化时机。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/95824847.shtml
+
+原标题：浏览器本地存储安全使用技巧
+简介：golang grpc 客户端拦截器封装，grpc 客户端拦截器实现请求统一签名、重试、链路信息透传。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/18168462.shtml
+
+原标题：缓存过期打散防止缓存雪崩
+简介：golang go 领域驱动 DDD 项目分层，go 项目 DDD 分层架构，领域层应用层基础设施层划分业务代码。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/59664725.shtml
+
+原标题：方案设计：接口版本管理架构向前兼容策略
+简介：golang k8s secret 敏感配置加载，加载 k8s secret 存储密钥密码，敏感信息不存放配置文件。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/74722835.shtml
+
+原标题：golang redis 发布订阅简单示例
+简介：golang go‑zero 缓存自动击穿防护，go‑zero 缓存组件自带缓存击穿防护，减少缓存层故障。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/19389584.shtml
+
+原标题：排坑：Git提交历史混乱，如何清理错误提交
+简介：版本升级服务启动失败处理，版本更新之后服务无法启动，对比新旧版本配置、依赖差异，完成故障修复。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/29449241.shtml
+
+原标题：CI 持续集成自动构建流程
+简介：静态网页 HTML CSS 快速入门实战，通过简单页面案例讲解标签、样式布局，从零编写页面，理解网页基础渲染原理。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/84723939.shtml
+
+原标题：golang kafka offset 提交策略
+简介：手写简易 RPC 服务通信原型，手写极简 RPC 原型，理解服务注册、网络传输、方法调用底层逻辑。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/06056351.shtml
+
+原标题：程序信号中断退出处理逻辑
+简介：monorepo 项目多包管理最佳实践，monorepo 仓库管理多子包，统一版本管理，处理包之间互相依赖。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/51602705.shtml
+
+原标题：golang 系统设计配置敏感信息加密存储
+简介：golang sync.Map 适用场景与性能对比，读多写少，离散 key，对比普通 map 加锁性能差异。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/25461693.shtml
+
+原标题：调试工具断点调试变量查看技巧
+简介：数据库读写分离性能优化，讲解读写分离原理，主库写入从库查询，分担数据库查询压力，提升查询性能。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/39370692.shtml
+
+原标题：项目实践：MySQL读写分离本地模拟实践
+简介：nodejs 内存溢出问题排查修复，Node.js 程序 OOM 排查流程，定位内存泄露，调整内存限制修复崩溃。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/18167694.shtml
+
+原标题：HelloGitWorkflow：理解简单主干开发流程
+简介：golang go‑fuzz 模糊测试开发，go fuzz 模糊测试，自动构造异常输入，发现代码隐藏 bug。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/92937352.shtml
+
+原标题：Practice：实现多数据源动态切换组件实践
+简介：版本升级服务启动失败处理，版本更新之后服务无法启动，对比新旧版本配置、依赖差异，完成故障修复。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/42381957.shtml
+
+原标题：踩坑：对象未释放，长时间运行内存持续上涨
+简介：跨域偶现失败配置修复，解决跨域问题时而复现时而正常，定位配置漏配、请求头异常等隐性问题。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/02682816.shtml
+
+原标题：WebSocket 聊天室实时通讯开发
+简介：单元测试用例编写入门实操，讲解测试用例设计思路，演示基础单元测试代码，提升代码健壮性，提前发现逻辑 bug。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/52782514.shtml
+
+原标题：坑点：环境配置写死代码，上线忘记修改
+简介：vite 项目配置与构建提速技巧，讲解 vite 配置优化手段，提升开发热更新速度与生产构建打包效率。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/07028461.shtml
+
+原标题：避坑：Spring事务传播行为理解错误事务失效
+简介：golang go 优雅处理信号丢失场景，处理信号丢失、信号被忽略，保障程序可以正常接收终止信号。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/06350350.shtml
+
+原标题：Hands‑on：简易短链接服务完整开发实践
+简介：golang e2e 端到端测试 go 接口，编写 e2e 测试，完整模拟用户请求，校验整套业务链路正确性。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/85891694.shtml
+
+
+二、踩坑排错｜Troubleshooting
+原标题：前端骨架屏提升页面体验
+简介：golang redis 事务 multi exec 使用，Redis 事务 multi exec 实现批量命令原子执行，理解 redis 事务隔离特性。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/40794736.shtml
+
+原标题：golang kafka 核心概念分区副本
+简介：golang go 爬虫请求速率控制，爬虫限频、代理轮换，设置 UA，防止爬虫被目标站点封禁 IP。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/85917251.shtml
+
+原标题：golang context 上下文传参讲解
+简介：死信队列处理消息阻塞业务，配置死信队列，处理消费失败消息，避免失败消息阻塞整个队列业务。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/85948146.shtml
+
+原标题：golang 系统设计配置本地缓存降级策略方案
+简介：golang goroutine 泄露常见场景汇总，channel 阻塞、context 忘记取消，导致协程无法退出发生泄露。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/95057353.shtml
+
+原标题：golang 系统设计传输加密 tls 配置要点
+简介：golang http 服务并发连接数限制，自定义 listener 统计连接数量，限制最大并发连接数保护服务。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/95059191.shtml
+
+原标题：golang docker 镜像体积优化技巧
+简介：golang k8s secret 敏感配置加载，加载 k8s secret 存储密钥密码，敏感信息不存放配置文件。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/62615827.shtml
+
+原标题：golang mongodb 聚合管道实操案例
+简介：手写简易 RPC 服务通信原型，手写极简 RPC 原型，理解服务注册、网络传输、方法调用底层逻辑。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/28382614.shtml
+
+原标题：调优方案：Nginx性能参数调优高并发配置
+简介：golang http 中间件洋葱模型原理，理解 go http 中间件洋葱模型，请求响应流转顺序，编写自定义中间件。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/51516946.shtml
+
+原标题：golang 系统设计配置敏感信息加密存储方案
+简介：浏览器缓存强制刷新方案，设置 HTTP 缓存头，处理浏览器缓存旧静态资源，让用户加载更新后的页面。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/73959280.shtml
+
+原标题：架构复盘：数据库索引架构设计原则与边界
+简介：开发测试生产多环境配置区分，讲解三套环境配置分离思路，配置文件隔离，防止开发配置泄露到生产环境。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/41582891.shtml
+
+原标题：golang 数据库慢查询监控实现
+简介：简易网关请求路由过滤模拟，模拟网关基础能力，实现请求路由转发、简单过滤，理解网关核心工作逻辑。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/95061380.shtml
+
+原标题：快速入门YAML配置文件语法与示例
+简介：golang excel 生成导出高性能方案，excelize 流式生成 excel，百万行数据导出，规避内存溢出。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/85025045.shtml
+
+原标题：方案对比：轮询长轮询WebSocket推送架构选型
+简介：golang 制品镜像版本号规范管理，镜像版本号结合 git commit，明确每个镜像对应代码版本便于追溯。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/41704028.shtml
+
+原标题：HelloMarkdown：GitHubMarkdown完整语法速查
+简介：golang rsa 签名验签 pem 证书加载，加载 pem 格式密钥证书，rsa 签名与验签完整业务实现。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/30461695.shtml
+
+原标题：golang 系统设计 commit 提交规范约定
+简介：golang os 主机名内核版本读取，os 读取主机名，内核信息，操作系统版本，获取运行环境信息。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/63724029.shtml
+
+原标题：Hands‑on：代码生成器，一键生成CRUD模板
+简介：内存泄漏定位分析完整流程，分享内存泄漏排查步骤，定位没有释放的对象，解决内存持续上涨问题。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/96916470.shtml
+
+原标题：项目构建脚本编译打包解析
+简介：golang mongodb 索引优化慢查询处理，mongodb 创建索引，分析慢查询，优化聚合查询执行性能。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/51793028.shtml
+
+原标题：Architecture：鉴权授权系统架构设计思路
+简介：golang go 程序容器资源 requests limits，设置容器 cpu 内存配额，防止实例抢占集群资源，稳定调度。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/70705735.shtml
+
+原标题：容器资源限制防止宿主机过载
+简介：浏览器内存泄漏排查前端页面，梳理前端页面内存泄漏场景，讲解排查手段，修复页面内存持续上涨。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/51627905.shtml
+
+原标题：新手向：开源项目fork与同步上游代码
+简介：golang 大文件读取内存优化，Go 流式读取大文件，分块处理，避免大文件一次性加载全部到内存。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/28258361.shtml
+
+原标题：Git 混乱提交历史清理方法
+简介：golang mock 单元测试编写技巧，单元测试 mock 外部依赖，隔离数据库网络，只测试业务逻辑本身。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/52613139.shtml
+
+原标题：设计思考：大促系统架构压测改造整体思路
+简介：golang 日志输出 stdout 标准输出规范，容器环境日志输出到 stdout，由容器平台统一采集日志文件。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/27582505.shtml
+
+原标题：优化实践：内存池思想减少频繁分配释放
+简介：golang go xml 解析生成 xml 文档，encoding/xml 解析 xml，结构体标签映射 xml 节点属性。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/40302736.shtml
+
+原标题：部署实践：Nginx高可用配置方案实践
+简介：数据库连接及时关闭连接泄漏，确保数据库连接使用完毕释放归还连接池，杜绝连接泄漏耗尽连接。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/41512927.shtml
+
+原标题：DevOps：日志标准输出容器日志收集方案
+简介：golang go select 多路等待 channel，select 等待多个 channel，default 非阻塞，超时等待 channel。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/75959262.shtml
+
+原标题：从零搭建简单定时任务demo
+简介：包管理器依赖冲突解决方案，分析依赖冲突产生根源，提供版本调整、锁定依赖等手段，解决项目依赖报错问题。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/41815724.shtml
+
+原标题：golang consul 服务发现简单示例
+简介：进程线程并发基础概念讲解，区分进程与线程，讲解调度逻辑，理解并发执行原理，为高并发业务开发打基础。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/51401916.shtml
+
+原标题：开发复盘：数据库批量更新优化性能实践
+简介：Git 标签版本标记发布管理，使用 Git 标签标记项目版本，打标签推送远程，用于版本发布、版本回溯。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/53137070.shtml
+
+原标题：DevOps：日志标准输出容器日志收集方案
+简介：CI 构建缓存加速编译速度，开启 CI 流水线依赖缓存，复用上一次构建依赖包，缩短流水线构建耗时。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/06137251.shtml
+
+原标题：布隆过滤器误判问题修正
+简介：golang 灰度发布流量权重路由实现，根据权重切分流量，部分流量访问新版本服务，实现灰度发布。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/74467351.shtml
+
+原标题：手写简易 RPC 服务通信原型
+简介：golang 环境变量读取与类型转换，读取系统环境变量，做类型转换默认值处理，适配多环境部署。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/29791391.shtml
+
+原标题：golang 系统设计定时任务失败重试告警实现
+简介：golang redis 客户端业务使用，Go Redis 客户端对接，实现缓存、计数器，适配各类 Redis 业务场景。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/62846147.shtml
+
+原标题：Security：开源项目安全审计简易检查清单
+简介：Nginx 缓冲区调优大文件上传，调大 Nginx 请求缓冲区，支持客户端上传大体积文件，避免上传被截断。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/06067391.shtml
+
+原标题：golang csv 读写批量数据处理
+简介：golang 模板函数自定义拓展，自定义 template 模板函数，在 html 模板调用自定义逻辑处理数据。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/30623917.shtml
+
+原标题：Troubleshooting：代理环境下证书校验失败HTTPS报错
+简介：nodejs 项目 pm2 部署运维指南，使用 PM2 管理 Node 服务，进程守护、日志、重启，线上部署运维实操。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/73705836.shtml
+
+原标题：方案对比：同步事务vs事务消息最终一致性
+简介：golang go 输入数据校验防御，所有外部入参严格校验长度格式，防止恶意输入造成业务异常。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/39717068.shtml
+
+原标题：开源实践：开源Issue沟通技巧如何有效提Bug
+简介：死信队列处理消息阻塞业务，配置死信队列，处理消费失败消息，避免失败消息阻塞整个队列业务。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/20471795.shtml
+
+原标题：效率笔记：终端开发工具提升日常调试效率
+简介：golang goroutine 泄露检测告警实现，监控 goroutine 数量，突增触发告警，提早发现协程泄露。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/30613919.shtml
+
+原标题：开发记录：业务错误告警邮件通知组件实践
+简介：golang 分库分表简单路由实现，简易分表路由逻辑实现，根据分片 key 计算分片位置，数据路由写入。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/47471404.shtml
+
+原标题：避坑：Spring事务传播行为理解错误事务失效
+简介：Nginx 静态代理负载均衡全套配置，一套 Nginx 配置示例，覆盖静态资源、反向代理、负载均衡场景。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/28281694.shtml
+
+三、实战开发｜Practice
+原标题：Troubleshooting：数据库索引失效，查询性能暴跌
+简介：前端大文件分片上传完整方案，前端分片切割大文件，配合后端分片接口，实现稳定大文件上传。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/96057351.shtml
+
+原标题：实战：接口压力测试实操，定位系统瓶颈
+简介：golang 故障演练服务模拟超时报错，程序模拟接口超时、报错，做混沌测试验证熔断降级有效性。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/94239280.shtml
+
+原标题：golang 系统设计指标埋点代码低侵入实现
+简介：后端登录鉴权模块完整开发，实现完整登录模块，包含账号校验、令牌发放、接口鉴权整套能力。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/48672735.shtml
+
+原标题：缓存穿透击穿雪崩全套防护
+简介：golang sync.Cond 条件变量使用，Cond 条件变量协程等待唤醒，复杂并发同步场景。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/25827058.shtml
+
+原标题：安全实践：最小权限原则数据库账号管控
+简介：golang 子进程超时杀死防止挂住，context 控制子进程超时，超时强制杀掉子进程，避免子进程僵尸。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/51593906.shtml
+
+原标题：项目实践：实现统一接口返回封装与全局异常处理
+简介：容器软链接文件权限修复，修复容器内软链接文件权限，让程序能够正常读取软链接指向的文件。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/17170503.shtml
+
+原标题：架构笔记：分布式系统常见一致性模型梳理
+简介：vite 项目配置与构建提速技巧，讲解 vite 配置优化手段，提升开发热更新速度与生产构建打包效率。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/36572513.shtml
+
+原标题：磁盘 inode 耗尽文件创建失败
+简介：golang go list 双向链表使用，container/list 双向链表，频繁增删节点业务场景使用。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/74838172.shtml
+
+原标题：坑点：gitreset误删本地代码恢复方案
+简介：golang grpc keepalive 保活配置，grpc keepalive 参数调优，检测断开僵死连接，释放无效连接资源。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/62906857.shtml
+
+原标题：调优方案：服务实例扩容，水平扩展性能
+简介：golang mongodb go 驱动实操教程，mongo‑go‑driver 操作 mongodb，文档增删改查聚合查询。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/84949491.shtml
+
+原标题：golang kafka 批量发送消费优化
+简介：文件句柄上限调整上传随机失败，调高系统文件句柄上限，解决高并发上传场景随机打开文件失败。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/96058179.shtml
+
+原标题：golang aes 对称加密解密示例
+简介：动态定时任务业务调度实现，实现可以动态增删启停定时任务，无需重启服务调整调度任务。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/16462514.shtml
+
+原标题：前端组件库按需加载性能优化
+简介：多套环境灵活切换配置方案，实现配置动态切换，通过环境变量、配置文件，快速切换开发测试生产环境。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/07059351.shtml
+
+原标题：golang 系统设计开源项目 issue pr 模板编写
+简介：golang gorm 批量插入性能调优，GORM 批量插入优化，调整批次大小，提升大量数据插入数据库速度。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/95916151.shtml
+
+原标题：golang 系统设计架构图绘制规范简单建议
+简介：消息队列重复消费业务处理，实现消息消费幂等，处理重复投递消息，保证多次消费业务结果一致。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/84946256.shtml
+
+原标题：Security：文件上传漏洞攻击面完整防护方案
+简介：golang 优雅处理 http 超时设置，Go HTTP 请求设置各类超时，防止请求无限阻塞，保护协程与连接。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/29674624.shtml
+
+原标题：golang redis set 集合去重业务
+简介：golang interface 接口使用避坑，interface 判 nil 坑点，理解接口底层结构，避免判空逻辑失效。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/07170685.shtml
+
+原标题：实践：API接口文档自动导出离线文档实践
+简介：nodejs 集群模式多核利用实现，使用 cluster 集群模式，充分利用服务器多核 CPU，提升服务处理能力。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/95057274.shtml
+
+原标题：golang redis bitmap 位图统计实现
+简介：golang netlink 系统信息获取，netlink 获取系统网络信息，网卡地址，内核网络状态读取。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/74724031.shtml
+
+原标题：实战项目：多实例部署会话一致性验证实践
+简介：golang go 代码覆盖率线上统计，单元测试覆盖率统计，找出未测试代码分支，提升测试质量。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/95930289.shtml
+
+原标题：开发复盘：海量日志轮转清理脚本实践
+简介：数据库读写分离性能优化，讲解读写分离原理，主库写入从库查询，分担数据库查询压力，提升查询性能。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/52905836.shtml
+
+原标题：记一次字符集编码不一致乱码问题全排查
+简介：异步编程 Promise 执行流程解析，拆解异步执行顺序，理解回调与 Promise 差异，理清异步场景下代码执行逻辑。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/58572513.shtml
+
+原标题：零基础理解幂等性基础概念与场景
+简介：编译打包产物依赖分析解读，分析打包之后产物组成，理清运行依赖文件，排查打包后缺失文件问题。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/84835737.shtml
+
+原标题：DevOps：容器网络模式选型与坑点总结
+简介：golang smtp 邮件发送完整示例，调用 smtp 服务发送文本与 html 格式邮件，实现邮件通知能力。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/84135130.shtml
+
+原标题：Issue：定时任务并发执行未加锁重复执行业务
+简介：异步任务堆积消费能力优化，处理消息任务堆积问题，提升消费处理速度，恢复队列正常处理水位。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/52717936.shtml
+
+原标题：golang 系统设计单元测试 mock 外部依赖技巧
+简介：golang 换行符统一处理，文本文件读写统一换行符，规避不同系统换行符带来解析异常。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/07484624.shtml
+
+原标题：golang 系统设计 pr 评审合并完整流程
+简介：JWT 工具封装令牌刷新过期，封装 JWT 工具类，实现令牌生成、校验、过期刷新整套令牌管理逻辑。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/06343506.shtml
+
+原标题：快速入门简单签名校验实现思路
+简介：多套环境灵活切换配置方案，实现配置动态切换，通过环境变量、配置文件，快速切换开发测试生产环境。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/06938479.shtml
+
+原标题：Architecture：灰度、蓝绿、金丝雀发布架构对比
+简介：golang lru 缓存淘汰算法编写，手写 LRU 缓存淘汰算法，实现本地缓存，淘汰最久未使用数据。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/18481392.shtml
+
+原标题：Practice：实现IP黑名单拦截中间件实践
+简介：单元测试用例编写入门实操，讲解测试用例设计思路，演示基础单元测试代码，提升代码健壮性，提前发现逻辑 bug。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/39462280.shtml
+
+原标题：前端错误监控上报系统搭建
+简介：golang 容器健康检查接口开发，Go 开发 HTTP 健康接口，供容器编排工具探测实例存活状态。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/41551364.shtml
+
+原标题：golang 系统设计多级缓存更新策略
+简介：CI/CD 流水线自动构建部署落地，搭建完整 CI/CD 流水线，代码提交自动构建、测试、部署到目标环境。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/18232402.shtml
+
+原标题：golang 系统设计 rest 分页排序过滤参数规范
+简介：golang smtp 邮件发送完整示例，调用 smtp 服务发送文本与 html 格式邮件，实现邮件通知能力。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/74130390.shtml
+
+原标题：静态博客部署 GitHub Pages 教程
+简介：golang go panic 合理使用边界，panic 只用于不可恢复程序错误，业务逻辑禁止直接 panic。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/15240270.shtml
+
+原标题：HelloEnv：多操作系统环境变量配置汇总
+简介：Git 分支管理多人协作实战教程，详解分支创建、合并、冲突处理，适配团队开发场景，规范多人协同代码工作流。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/49492708.shtml
+
+原标题：golang 系统设计 http3 quic 简单原理了解
+简介：golang channel 缓冲无缓冲区别，缓冲 channel 与无缓冲 channel，底层行为差异业务选型参考。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/96040139.shtml
+
+原标题：Troubleshooting：数据库主从延迟带来查询数据不一致
+简介：golang 异步任务队列 worker 池开发，任务入数据库或 redis，worker 池消费执行，异步处理耗时业务。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/84836250.shtml
+
+原标题：调试工具断点调试变量查看技巧
+简介：golang context.WithValue 传递元数据，WithValue 只传 traceId 鉴权元数据，不要传业务大对象。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/96350393.shtml
+
+原标题：性能复盘：GC停顿过长业务卡顿优化记录
+简介：分页逻辑错误数据漏查修复，修复分页查询逻辑漏洞，解决分页漏数据、重复返回数据等业务问题。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/51675724.shtml
+
+原标题：Practice：实现简单信号处理优雅停机实践
+简介：Docker 网络模式容器互通设置，选择合适 Docker 网络模式，实现容器之间网络互相访问通信。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/73139275.shtml
+
+四、架构设计｜Architecture
+原标题：排错：反向代理后获取真实IP全部变成内网IP
+简介：golang 负载均衡轮询加权轮询实现，手写负载均衡算法，轮询、加权轮询分发请求到后端节点。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/17835179.shtml
+
+原标题：方案设计：多租户系统架构三种实现模式对比
+简介：golang mock 单元测试编写技巧，单元测试 mock 外部依赖，隔离数据库网络，只测试业务逻辑本身。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/63028072.shtml
+
+原标题：避坑：ORM框架隐式查询产生大量慢SQL
+简介：Git 子模块更新代码不全修复，正确更新 Git 子模块，拉取子模块完整代码，解决子模块目录为空问题。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/18294724.shtml
+
+原标题：开发复盘：异步消息解耦业务流程落地实践
+简介：golang 命令行彩色输出终端，终端彩色文字输出，进度条交互，优化命令行工具用户体验。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/60696957.shtml
+
+原标题：新手指南：看懂开源项目的Issue与PR
+简介：数据库分表存储大表优化方案，对超大数据表做分表，拆分数据，降低单表数据量提升查询性能。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/18271694.shtml
+
+原标题：排错：macOS权限保护导致脚本执行被拦截
+简介：静态站点自动部署发布方案，配置流水线，代码更新自动构建静态站点并且部署上线，简化发布。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/80494602.shtml
+
+原标题：Troubleshooting：k8s镜像拉取失败镜像仓库网络问题
+简介：golang 系统信号信号量处理，Go 处理系统各类信号，SIGINT、SIGTERM，实现程序可控退出。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/28290280.shtml
+
+原标题：golang 系统设计内部服务契约测试简单思路
+简介：数据库排序规则统一结果一致，统一数据库表排序规则，解决不同环境查询排序结果不一致问题。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/51591802.shtml
+
+原标题：OpenSource：开源项目许可证License选型指南
+简介：golang go mod vendor 本地依赖导出，导出 vendor 目录，离线环境编译项目，无需访问外网拉依赖。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/51672916.shtml
+
+原标题：golang 系统设计 docker compose 本地开发环境搭建
+简介：系统字符集统一乱码修复，统一数据库、程序、操作系统字符集，解决中文乱码显示异常问题。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/95249280.shtml
+
+原标题：浏览器本地存储安全使用技巧
+简介：golang testify mock 模拟接口，mock 接口生成 mock 对象，单元测试模拟外部依赖行为。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/62684149.shtml
+
+原标题：快速入门日志打印与日志分级基础用法
+简介：golang go 零停机升级实践要点，socket 继承，流量无损，旧连接处理完毕后旧进程退出。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/84226240.shtml
+
+原标题：移动端适配 rem vw 方案对比
+简介：golang redis 锁超时业务处理，Redis 分布式锁超时问题处理，锁续期逻辑，防止业务未完成锁提前释放。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/78683516.shtml
+
+原标题：消息队列重复消费业务处理
+简介：golang httptest 模拟 http 请求单元测试，httptest 模拟 http 请求，测试 http handler 逻辑不用启动服务。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/40806857.shtml
+
+原标题：golang 系统设计密钥轮换安全实践思路
+简介：golang 数据库连接池泄露检测逻辑，监控连接池状态，检测连接长时间未归还，告警连接泄漏问题。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/52660680.shtml
+
+原标题：Practice：实现业务id生成不连续有序ID方案
+简介：golang time.After 内存泄漏场景，for 循环使用 time.After 会创建大量 timer，造成内存泄漏。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/84947058.shtml
+
+原标题：golang docker 多阶段构建 go 镜像
+简介：代理 HTTPS 证书访问异常处理，配置代理根证书，解决代理环境 HTTPS 证书校验失败无法访问外网。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/84938461.shtml
+
+原标题：快速入门日志打印与日志分级基础用法
+简介：gitignore 文件编写过滤规则，讲解 gitignore 语法，编写过滤配置，忽略缓存、编译产物、密钥文件，保持仓库整洁。
+ | 原文链接：http://www.blog.vbwsqa.cn/uoymu/73128179.shtml
+
+?
