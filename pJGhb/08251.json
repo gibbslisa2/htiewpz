@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：express 中间件开发业务实践
+简介：golang 跨域处理中间件编写，Gin 跨域中间件开发，处理预检 OPTIONS 请求，解决浏览器跨域报错。
+ | 原文链接：3g.kpjy.net.cn/Article/details/29373636.shtml
+
+原标题：Hands‑on：本地模拟消息重复消费处理实践
+简介：全量回归测试提升代码质量，搭建全量回归测试集，版本发布执行回归测试，避免迭代引入旧 bug。
+ | 原文链接：3g.kpjy.net.cn/Article/details/53825241.shtml
+
+原标题：golang 系统设计数据库基准压测简单思路
+简介：hosts 配置本地回环访问修复，修改 hosts 配置，修复 127.0.0.1 解析异常，本地服务访问失败问题。
+ | 原文链接：3g.kpjy.net.cn/Article/details/96068473.shtml
+
+原标题：Architecture：中小型后端服务整体架构设计复盘
+简介：golang go 防止路径穿越攻击，文件操作校验路径，拒绝../ 路径穿越，禁止访问系统任意文件。
+ | 原文链接：3g.kpjy.net.cn/Article/details/63736258.shtml
+
+原标题：golang k8s job 一次性任务执行
+简介：golang go 二进制安全 strip 减小体积，strip 剥离二进制调试符号，缩小程序二进制文件体积。
+ | 原文链接：3g.kpjy.net.cn/Article/details/38584736.shtml
+
+原标题：golang 批量任务协程控制防雪崩
+简介：业务错误码完整落地实践，落地完整业务错误码，枚举全部业务异常，统一返回，配套文档说明。
+ | 原文链接：3g.kpjy.net.cn/Article/details/93028171.shtml
+
+原标题：记一次GC频繁，服务CPU持续高负载排查
+简介：golang os 文件权限 mode，os.FileMode 文件权限，读写执行权限位，跨平台权限注意事项。
+ | 原文链接：3g.kpjy.net.cn/Article/details/20795739.shtml
+
+原标题：golang 系统设计容器 OOM 故障完整排查
+简介：大文件导出内存溢出防护，流式处理大文件导出，边读边写，不把全部数据加载内存，规避 OOM。
+ | 原文链接：3g.kpjy.net.cn/Article/details/96068079.shtml
+
+原标题：GC 垃圾回收优化降低 CPU 占用
+简介：golang 图片处理 go 图片裁剪压缩，golang 图像处理库，图片缩放裁剪水印，服务端图片处理。
+ | 原文链接：3g.kpjy.net.cn/Article/details/52725160.shtml
+
+原标题：Debug：分页偏移量过大数据库查询性能暴跌
+简介：分布式事务最终一致性实现，基于可靠消息实现最终一致性，解决跨数据库跨服务业务数据一致性。
+ | 原文链接：3g.kpjy.net.cn/Article/details/08273696.shtml
+
+原标题：golang 系统设计分布式锁红锁优缺点梳理
+简介：移动端适配 rem vw 方案对比，对比 rem 与 vw 移动端适配方案，分析优缺点，给出选型建议。
+ | 原文链接：3g.kpjy.net.cn/Article/details/58694819.shtml
+
+原标题：调优方案：MySQL缓冲池参数性能调优实践
+简介：CI 持续集成自动构建流程，讲解 CI 基础概念，配置流水线实现代码提交后自动构建、测试，提升交付自动化。
+ | 原文链接：3g.kpjy.net.cn/Article/details/29383036.shtml
+
+原标题：golang 系统设计 sql 注入 xss 防护实践
+简介：golang 负载均衡轮询加权轮询实现，手写负载均衡算法，轮询、加权轮询分发请求到后端节点。
+ | 原文链接：3g.kpjy.net.cn/Article/details/48029181.shtml
+
+原标题：Security：反序列化漏洞风险识别与规避
+简介：golang go 代码覆盖率线上统计，单元测试覆盖率统计，找出未测试代码分支，提升测试质量。
+ | 原文链接：3g.kpjy.net.cn/Article/details/92557688.shtml
+
+原标题：golang 系统设计配置灰度下发简单实现思路
+简介：golang go 服务压测前后性能对比，压测记录 QPS 延迟，优化前后对比，验证优化效果。
+ | 原文链接：3g.kpjy.net.cn/Article/details/25788024.shtml
+
+原标题：接口压测定位系统性能瓶颈
+简介：nodejs 中间件模式原理剖析，拆解 Node 中间件设计模式，理解请求逐层处理流转的底层原理。
+ | 原文链接：3g.kpjy.net.cn/Article/details/79435335.shtml
+
+原标题：Issue：容器日志驱动配置错误日志全部丢失
+简介：nodejs 进程间通信 IPC 实操，演示 Node.js 主进程子进程 IPC 通信，进程之间传递消息数据。
+ | 原文链接：3g.kpjy.net.cn/Article/details/82353547.shtml
+
+原标题：golang 系统设计网关路由规则动态配置实现
+简介：golang go 信号处理优雅重启实现，USR2 触发程序重启，不关闭监听 socket 实现零停机升级。
+ | 原文链接：3g.kpjy.net.cn/Article/details/48011324.shtml
+
+原标题：golang consul 服务发现简单示例
+简介：golang proto 可选字段处理方案，protobuf 可选字段正确判断，区分未赋值与零值，业务逻辑不出现偏差。
+ | 原文链接：3g.kpjy.net.cn/Article/details/92444667.shtml
+
+原标题：实战项目：实现简单缓存服务缓存穿透击穿防护
+简介：JWT 工具封装令牌刷新过期，封装 JWT 工具类，实现令牌生成、校验、过期刷新整套令牌管理逻辑。
+ | 原文链接：3g.kpjy.net.cn/Article/details/26767021.shtml
+
+原标题：golang mysql 时间类型选型避坑
+简介：golang go 项目依赖冲突解决完整思路，定位冲突包，replace、exclude、升级降级解决版本冲突。
+ | 原文链接：3g.kpjy.net.cn/Article/details/55745563.shtml
+
+原标题：快速上手调试工具定位简单代码错误
+简介：golang panic 崩溃日志完整收集，捕获所有 panic，打印堆栈，记录日志，方便定位崩溃根源。
+ | 原文链接：3g.kpjy.net.cn/Article/details/30139025.shtml
+
+原标题：快速入门ORM，实现简单数据库增删改查
+简介：golang 配置中心 apollo go 客户端，apollo go sdk 读取配置，配置变更自动热更新无需重启服务。
+ | 原文链接：3g.kpjy.net.cn/Article/details/48313614.shtml
+
+原标题：设计思考：业务系统如何设计优雅失败架构
+简介：Git 分支管理多人协作实战教程，详解分支创建、合并、冲突处理，适配团队开发场景，规范多人协同代码工作流。
+ | 原文链接：3g.kpjy.net.cn/Article/details/63246047.shtml
+
+原标题：线程调度优化减少上下文切换
+简介：golang kitex 字节微服务框架入门，kitex 开发 rpc 微服务，代码生成，服务注册发现完整流程。
+ | 原文链接：3g.kpjy.net.cn/Article/details/30246816.shtml
+
+原标题：golang 系统设计防爬虫简单策略
+简介：项目语义化版本号规范管理，遵循语义化版本规范管理项目版本，明确主次版本变更含义。
+ | 原文链接：3g.kpjy.net.cn/Article/details/60279254.shtml
+
+原标题：性能复盘：慢查询日积月累拖垮数据库优化
+简介：golang go math 大数高精度计算，math/big 处理超大整数、高精度浮点数，金额大数运算。
+ | 原文链接：3g.kpjy.net.cn/Article/details/41638262.shtml
+
+原标题：数据库索引重建提升查询速度
+简介：磁盘 inode 耗尽文件创建失败，排查磁盘 inode 占用，清理大量小文件，恢复文件创建能力。
+ | 原文链接：3g.kpjy.net.cn/Article/details/31573625.shtml
+
+原标题：限流窗口绕过漏洞修复方案
+简介：数据库索引重建提升查询速度，针对碎片化索引，重建数据库索引，恢复 SQL 查询执行性能。
+ | 原文链接：3g.kpjy.net.cn/Article/details/52624139.shtml
+
+原标题：线上故障：热点Key打满RedisCPU节点过载
+简介：golang golangci‑lint 静态代码检查配置，golangci‑lint 静态检查，代码规范检测，提前发现代码隐患。
+ | 原文链接：3g.kpjy.net.cn/Article/details/41605847.shtml
+
+原标题：golang 系统设计第三方调用超时重试熔断
+简介：Redis 热点 key 拆分降低集群压力，拆分访问量极高的热点 Key，分散请求压力，避免 Redis 节点压力过高。
+ | 原文链接：3g.kpjy.net.cn/Article/details/85049271.shtml
+
+原标题：安全组端口开放网络访问
+简介：golang go 并发模式 errgroup 使用，errgroup 结合 context，协程组，任意协程出错整体取消任务。
+ | 原文链接：3g.kpjy.net.cn/Article/details/42613031.shtml
+
+原标题：GC 垃圾回收优化降低 CPU 占用
+简介：golang systemd 信号与优雅退出配合，systemd 停止服务发送 SIGTERM，go 程序捕获信号优雅关闭。
+ | 原文链接：3g.kpjy.net.cn/Article/details/86359570.shtml
+
+原标题：性能复盘：慢查询日积月累拖垮数据库优化
+简介：golang interface {} 类型断言类型转换，类型断言 ok 模式，避免断言失败触发 panic。
+ | 原文链接：3g.kpjy.net.cn/Article/details/97138180.shtml
+
+原标题：golang grpc protobuf 开发实操
+简介：golang hmac 签名生成校验示例，hmac 生成消息签名，做接口请求签名，校验数据不被篡改。
+ | 原文链接：3g.kpjy.net.cn/Article/details/41816171.shtml
+
+原标题：golang 系统设计 cpu 高占用排查步骤
+简介：golang go 线上故障排查完整流程，CPU 高、内存上涨、接口超时、goroutine 泄露一套排查处理流程。
+ | 原文链接：3g.kpjy.net.cn/Article/details/96140363.shtml
+
+原标题：golang 系统设计链路追踪架构简单讲解
+简介：golang redis hyperloglog 基数统计，hyperloglog 统计 UV 基数，海量数据去重统计，极低内存开销。
+ | 原文链接：3g.kpjy.net.cn/Article/details/53736251.shtml
+
+原标题：golang 系统设计分布式锁红锁优缺点梳理
+简介：golang ctx 传递规则不要存结构体，context 作为函数参数传递，禁止放入结构体字段存储。
+ | 原文链接：3g.kpjy.net.cn/Article/details/42635362.shtml
+
+原标题：实战：WebSocket断线重连完整业务处理实践
+简介：golang go mod graph 可视化依赖图，可视化 go 依赖关系，直观看到包之间依赖，定位冲突。
+ | 原文链接：3g.kpjy.net.cn/Article/details/59605846.shtml
+
+原标题：架构复盘：系统扩容缩容架构无状态优先原则
+简介：golang redis list 队列简易消息队列，利用 Redis List 实现简易队列，完成任务入队消费基础能力。
+ | 原文链接：3g.kpjy.net.cn/Article/details/41583937.shtml
+
+
+二、踩坑排错｜Troubleshooting
+原标题：部署实践：Nginx高可用配置方案实践
+简介：数据库读写分离性能优化，讲解读写分离原理，主库写入从库查询，分担数据库查询压力，提升查询性能。
+ | 原文链接：3g.kpjy.net.cn/Article/details/30472403.shtml
+
+原标题：golang 系统设计数据库死锁分析规避
+简介：nodejs 事件循环机制完整讲解，拆解 Node.js 事件循环各个阶段，理解异步回调执行顺序。
+ | 原文链接：3g.kpjy.net.cn/Article/details/60762536.shtml
+
+原标题：方案设计：分布式锁失效风险架构层面规避
+简介：golang gorm ORM 数据库操作，GORM 实操数据库 CRUD，模型定义，关联查询，简化 Go 数据库开发。
+ | 原文链接：3g.kpjy.net.cn/Article/details/37488473.shtml
+
+原标题：golang 系统设计线上日志快速检索技巧
+简介：配置与镜像分离防止信息泄露，业务配置不打包进镜像，外部挂载配置，避免密钥配置随镜像泄露。
+ | 原文链接：3g.kpjy.net.cn/Article/details/74846270.shtml
+
+原标题：golang 系统设计告警风暴抑制方案实现
+简介：golang 开发环境快速搭建指南，快速完成 Golang 开发环境配置，工具链安装，环境变量设置，准备开发。
+ | 原文链接：3g.kpjy.net.cn/Article/details/52635146.shtml
+
+原标题：调优方案：消息队列消费速度优化处理堆积
+简介：golang elasticsearch 客户端 golang 实操，es 客户端文档增删改查，条件搜索聚合统计对接搜索引擎。
+ | 原文链接：3g.kpjy.net.cn/Article/details/52635369.shtml
+
+原标题：CORS 跨域问题多种解决方案
+简介：golang 定时任务任务持久化存储，定时任务持久化到数据库，服务重启任务不丢失，动态管理任务。
+ | 原文链接：3g.kpjy.net.cn/Article/details/26146148.shtml
+
+原标题：Nginx 缓冲区调优大文件上传
+简介：golang os 打开文件 O_APPEND O_CREATE 标志，OpenFile 标志位，控制文件创建追加截断行为。
+ | 原文链接：3g.kpjy.net.cn/Article/details/10351886.shtml
+
+原标题：方案设计：批量大数据导出系统架构拆解
+简介：开发测试生产多环境配置区分，讲解三套环境配置分离思路，配置文件隔离，防止开发配置泄露到生产环境。
+ | 原文链接：3g.kpjy.net.cn/Article/details/98129119.shtml
+
+原标题：开源实践：开源Issue沟通技巧如何有效提Bug
+简介：golang bytes.Buffer 字节缓冲区使用，bytes.Buffer 字节内存缓冲区，拼接字节，避免频繁内存分配。
+ | 原文链接：3g.kpjy.net.cn/Article/details/44849251.shtml
+
+原标题：golang 系统设计错误码体系完整设计
+简介：golang gif 图片帧处理操作，解析 gif 图片帧，压缩、拆分 gif 动图，处理动图业务。
+ | 原文链接：3g.kpjy.net.cn/Article/details/07301836.shtml
+
+原标题：HTTP 状态码请求头完整梳理
+简介：手写简易 ORM 理解对象映射，手写极简 ORM 示例，理解对象与数据库表字段映射底层原理。
+ | 原文链接：3g.kpjy.net.cn/Article/details/95926847.shtml
+
+原标题：golang 优雅处理系统信号 SIGINT
+简介：golang go 程序 CPU 占用高定位步骤，pprof 定位热点函数，分析 CPU 高占用，优化耗时代码逻辑。
+ | 原文链接：3g.kpjy.net.cn/Article/details/85252585.shtml
+
+原标题：golang 系统设计集成测试数据库回滚重置方案
+简介：golang ip2regionIP 地址解析实战，集成 ip2region 库，根据 IP 解析归属地城市，实现 IP 地域解析。
+ | 原文链接：3g.kpjy.net.cn/Article/details/17149281.shtml
+
+原标题：线上故障：消息队列重复消费业务处理异常
+简介：golang trace 链路追踪 opentelemetry，opentelemetry 实现链路追踪，生成 traceId spanId，完整记录调用链路。
+ | 原文链接：3g.kpjy.net.cn/Article/details/29361624.shtml
+
+原标题：坑点：gitsubmodule子模块更新失败踩坑
+简介：golang 反向代理 http 服务开发，手写简易 http 反向代理，转发请求，修改请求头响应头。
+ | 原文链接：3g.kpjy.net.cn/Article/details/97380702.shtml
+
+原标题：代理 HTTPS 证书访问异常处理
+简介：防火墙 IP 白名单回调接口放行，配置防火墙白名单，放行第三方回调服务器 IP，接收回调请求正常。
+ | 原文链接：3g.kpjy.net.cn/Article/details/37472424.shtml
+
+原标题：复盘总结：微服务改造踩坑经验总结记录
+简介：程序预加载加快服务启动速度，把高频使用资源提前预加载，减少请求阶段初始化，加快服务启动。
+ | 原文链接：3g.kpjy.net.cn/Article/details/59794736.shtml
+
+原标题：安全复盘：日志打印敏感信息泄露治理
+简介：nodejs 定时任务生产环境避坑，Node 定时任务线上踩坑汇总，集群重复执行、任务阻塞等问题解决方案。
+ | 原文链接：3g.kpjy.net.cn/Article/details/20462514.shtml
+
+原标题：新手教程：配置SSH‑Key免密访问GitHub
+简介：golang 配置中心 apollo go 客户端，apollo go sdk 读取配置，配置变更自动热更新无需重启服务。
+ | 原文链接：3g.kpjy.net.cn/Article/details/52724039.shtml
+
+原标题：线上异常：缓存雪崩带来数据库压力瞬间飙升
+简介：golang redis stream 消息队列实战，redis stream 实现可靠消息队列，消费组、ack 确认，消息不丢失。
+ | 原文链接：3g.kpjy.net.cn/Article/details/04462595.shtml
+
+原标题：设计思考：消息顺序性架构保证与业务妥协
+简介：轻量 API 后端接口服务快速开发，快速搭建简易 API 服务，实现基础接口能力，快速支撑小型业务需求。
+ | 原文链接：3g.kpjy.net.cn/Article/details/41696847.shtml
+
+原标题：安全笔记：Cookie安全属性SecureHttpOnly
+简介：golang httptest 模拟外部 http 服务，httptest.NewServer 模拟第三方 http 服务，单元测试 mock 外部接口。
+ | 原文链接：3g.kpjy.net.cn/Article/details/41694957.shtml
+
+原标题：golang 系统设计故障应急响应完整流程梳理
+简介：代码模块化组件化拆分思路，讲解代码拆分原则，将大业务拆分为独立模块组件，提升代码复用与维护能力。
+ | 原文链接：3g.kpjy.net.cn/Article/details/20472584.shtml
+
+原标题：序列化版本不一致解析失败
+简介：golang os 主机名内核版本读取，os 读取主机名，内核信息，操作系统版本，获取运行环境信息。
+ | 原文链接：3g.kpjy.net.cn/Article/details/18694695.shtml
+
+原标题：golang 系统设计缓存预热缓存降级实现
+简介：golang yaml 解析配置加载实操，Go 解析 YAML 配置文件，读取配置参数，驱动业务运行。
+ | 原文链接：3g.kpjy.net.cn/Article/details/30794046.shtml
+
+原标题：golang 系统设计一致性哈希原理讲解
+简介：golang go xml 解析生成 xml 文档，encoding/xml 解析 xml，结构体标签映射 xml 节点属性。
+ | 原文链接：3g.kpjy.net.cn/Article/details/95353625.shtml
+
+原标题：golang redis 缓存击穿防护实现
+简介：golang go mod graph 查看依赖关系，go mod graph 打印依赖树，定位间接依赖来源，解决版本冲突。
+ | 原文链接：3g.kpjy.net.cn/Article/details/37472537.shtml
+
+原标题：性能复盘：GC停顿过长业务卡顿优化记录
+简介：SourceMap 生成线上报错定位，项目打包生成 SourceMap 文件，线上报错可以还原源码，快速定位报错位置。
+ | 原文链接：3g.kpjy.net.cn/Article/details/37472503.shtml
+
+原标题：快速启动：本地运行开源项目排障清单
+简介：CI 构建缓存加速编译速度，开启 CI 流水线依赖缓存，复用上一次构建依赖包，缩短流水线构建耗时。
+ | 原文链接：3g.kpjy.net.cn/Article/details/29391281.shtml
+
+原标题：golang 系统设计联合索引设计避坑要点
+简介：express 中间件开发业务实践，开发 Express 自定义中间件，拦截请求，实现鉴权、日志记录等通用逻辑。
+ | 原文链接：3g.kpjy.net.cn/Article/details/85926069.shtml
+
+原标题：golang k8s liveness readiness 探针
+简介：golang go mod why 查询依赖引入原因，go mod why 查询为什么引入某个包，理清依赖来源。
+ | 原文链接：3g.kpjy.net.cn/Article/details/41694807.shtml
+
+原标题：安全笔记：依赖包漏洞检测供应链安全
+简介：golang nats 轻量消息队列 go 开发，nats 高性能轻量消息系统，发布订阅模式异步解耦业务。
+ | 原文链接：3g.kpjy.net.cn/Article/details/97033031.shtml
+
+原标题：前端骨架屏提升页面体验
+简介：重复提交幂等防护再次讲解，梳理前端重复点击、网络重试场景，落地接口幂等，杜绝重复业务。
+ | 原文链接：3g.kpjy.net.cn/Article/details/32540190.shtml
+
+原标题：一次JWT令牌过期时间异常问题复盘
+简介：跨域偶现失败配置修复，解决跨域问题时而复现时而正常，定位配置漏配、请求头异常等隐性问题。
+ | 原文链接：3g.kpjy.net.cn/Article/details/54645345.shtml
+
+原标题：Issue：连接池参数不合理，大量连接被耗尽
+简介：Cookie Session 会话状态管理，讲解 Cookie 与 Session 原理，理解登录状态保存，实现服务端会话管理逻辑。
+ | 原文链接：3g.kpjy.net.cn/Article/details/59699585.shtml
+
+原标题：架构复盘：服务灰度发布架构设计与流量切分
+简介：数据库主从延迟业务兼容处理，业务适配主从复制延迟，避免读取从库拿到还未同步完成旧数据。
+ | 原文链接：3g.kpjy.net.cn/Article/details/29391816.shtml
+
+原标题：golang 日志脱敏敏感字段过滤
+简介：nodejs 消息队列消费服务开发，Node 开发消息队列消费端，监听队列消息执行业务逻辑，异步解耦业务。
+ | 原文链接：3g.kpjy.net.cn/Article/details/69680606.shtml
+
+原标题：Hands‑on：简易连接池原型实现理解原理
+简介：golang 配置热更新不重启服务，实现配置热加载，监听配置变更，更新内存配置，无需重启服务实例。
+ | 原文链接：3g.kpjy.net.cn/Article/details/18293614.shtml
+
+原标题：Hands‑on：实现服务健康检查与自动报警demo
+简介：golang 终端交互式输入选择，命令行交互式问答选择输入，实现交互式脚本工具。
+ | 原文链接：3g.kpjy.net.cn/Article/details/64916928.shtml
+
+三、实战开发｜Practice
+原标题：踩坑：大事务引发数据库连接池耗尽
+简介：golang pprof 线上采集性能数据，线上环境采集 pprof 性能样本，不用停机，分析线上性能问题。
+ | 原文链接：3g.kpjy.net.cn/Article/details/19390414.shtml
+
+原标题：Practice：模拟热点key，验证缓存防护策略
+简介：golang strconv 字符串类型转换，字符串转数字布尔，处理转换失败 error，避免 panic。
+ | 原文链接：3g.kpjy.net.cn/Article/details/85958479.shtml
+
+原标题：浮点计算精度错误处理方案
+简介：axios 二次封装请求拦截处理，对 axios 做二次封装，统一请求拦截响应拦截，处理错误、token 自动刷新。
+ | 原文链接：3g.kpjy.net.cn/Article/details/64746362.shtml
+
+原标题：复盘总结：接口重构兼容旧版本改造复盘
+简介：文件监控服务自动重启开发，监控项目文件变更，代码修改自动重启服务，提升本地开发调试效率。
+ | 原文链接：3g.kpjy.net.cn/Article/details/59605816.shtml
+
+原标题：golang 系统设计缓存热点 key 问题业务规避
+简介：golang e2e 端到端测试 go 接口，编写 e2e 测试，完整模拟用户请求，校验整套业务链路正确性。
+ | 原文链接：3g.kpjy.net.cn/Article/details/96068473.shtml
+
+原标题：golang docker 镜像安全扫描漏洞
+简介：golang grpc keepalive 保活配置，grpc keepalive 参数调优，检测断开僵死连接，释放无效连接资源。
+ | 原文链接：3g.kpjy.net.cn/Article/details/18281792.shtml
+
+原标题：安全复盘：定时任务权限过大风险管控
+简介：golang go 错误包装 fmt.Errorf % w，使用 % w 包装错误，支持 errors.Is errors.As 判断错误类型。
+ | 原文链接：3g.kpjy.net.cn/Article/details/19391793.shtml
+
+原标题：golang k8s service 服务暴露几种类型
+简介：golang strconv 字符串类型转换，字符串转数字布尔，处理转换失败 error，避免 panic。
+ | 原文链接：3g.kpjy.net.cn/Article/details/86038492.shtml
+
+原标题：﻿【GettingStarted】从零搭建本地开发环境完整指南
+简介：前端静态缓存更新生效处理，修改静态资源版本标识，处理浏览器强缓存，让更新资源生效。
+ | 原文链接：3g.kpjy.net.cn/Article/details/63046284.shtml
+
+原标题：golang toml 配置文件解析教程
+简介：golang kafka 批量消费性能优化，开启批量拉取消息，调整批量大小，提升 kafka 消息消费吞吐量。
+ | 原文链接：3g.kpjy.net.cn/Article/details/31513039.shtml
+
+原标题：性能笔记：磁盘IO过高业务优化手段
+简介：golang http client Transport 参数调优，Transport 最大连接空闲连接，TLS 配置，http 客户端调优。
+ | 原文链接：3g.kpjy.net.cn/Article/details/85289573.shtml
+
+原标题：复盘总结：技术选型对比文档模板实践
+简介：golang go 随机数安全与非安全，math/rand 伪随机与 crypto/rand 密码学安全随机，区分业务场景。
+ | 原文链接：3g.kpjy.net.cn/Article/details/29361573.shtml
+
+原标题：golang redis 缓存预热实现思路
+简介：系统字符集统一乱码修复，统一数据库、程序、操作系统字符集，解决中文乱码显示异常问题。
+ | 原文链接：3g.kpjy.net.cn/Article/details/96079541.shtml
+
+原标题：坑点：环境配置被打包进镜像引发安全泄露
+简介：短信服务封装失败自动重试，封装短信发送组件，处理发送失败自动重试，兼容多短信服务商。
+ | 原文链接：3g.kpjy.net.cn/Article/details/63816281.shtml
+
+原标题：Architecture：事件溯源架构模式适用业务场景
+简介：react 状态管理方案选型对比，对比 Redux、Zustand 等 React 状态管理库，分析适用业务场景辅助选型。
+ | 原文链接：3g.kpjy.net.cn/Article/details/60706846.shtml
+
+原标题：分页逻辑错误数据漏查修复
+简介：服务器 Swap 关闭提升响应速度，关闭服务器 Swap 交换分区，避免内存交换磁盘拖慢程序响应性能。
+ | 原文链接：3g.kpjy.net.cn/Article/details/85950362.shtml
+
+原标题：效率笔记：提升开发效率shell脚本小工具合集
+简介：图片上传预览格式大小处理，实现图片上传接口，校验文件格式、大小，完成上传后预览处理。
+ | 原文链接：3g.kpjy.net.cn/Article/details/48595847.shtml
+
+原标题：golang k8s ingress‑nginx 配置 ssl 证书
+简介：时间精度统一业务判断修复，统一业务使用时间戳精度，毫秒秒区分清楚，修复时间判断逻辑错误。
+ | 原文链接：3g.kpjy.net.cn/Article/details/44676745.shtml
+
+原标题：Practice：模拟磁盘满，验证服务降级表现
+简介：golang ip2regionIP 地址解析实战，集成 ip2region 库，根据 IP 解析归属地城市，实现 IP 地域解析。
+ | 原文链接：3g.kpjy.net.cn/Article/details/66201823.shtml
+
+原标题：安全笔记：文件下载接口路径校验安全
+简介：Cookie Session 会话状态管理，讲解 Cookie 与 Session 原理，理解登录状态保存，实现服务端会话管理逻辑。
+ | 原文链接：3g.kpjy.net.cn/Article/details/53705170.shtml
+
+原标题：golang 系统设计定时任务动态启停配置方案
+简介：Git 误提交撤销回退实操教程，演示多种撤销提交方式，区分已经推送远程和本地未提交场景，处理误提交代码。
+ | 原文链接：3g.kpjy.net.cn/Article/details/96138470.shtml
+
+原标题：Troubleshooting：防火墙安全组拦截访问请求
+简介：golang 自定义 pprof 扩展业务指标，扩展 pprof，输出业务自定义指标，结合性能数据分析业务状态。
+ | 原文链接：3g.kpjy.net.cn/Article/details/30513058.shtml
+
+原标题：golang 系统设计第三方 sdk 二次封装技巧
+简介：golang validator 自定义校验规则，Gin Validator 自定义校验器，实现业务特殊参数校验逻辑。
+ | 原文链接：3g.kpjy.net.cn/Article/details/99361404.shtml
+
+原标题：golang 系统设计线上 ddl 变更安全执行思路
+简介：代理 HTTPS 证书访问异常处理，配置代理根证书，解决代理环境 HTTPS 证书校验失败无法访问外网。
+ | 原文链接：3g.kpjy.net.cn/Article/details/18279586.shtml
+
+原标题：golang gin 中间件执行顺序讲解
+简介：golang jaeger 链路追踪部署对接，jaeger 接收 opentelemetry 链路数据，可视化完整调用链路。
+ | 原文链接：3g.kpjy.net.cn/Article/details/63806958.shtml
+
+原标题：Hands‑on：简易图片压缩处理服务demo
+简介：golang elasticsearch 客户端 golang 实操，es 客户端文档增删改查，条件搜索聚合统计对接搜索引擎。
+ | 原文链接：3g.kpjy.net.cn/Article/details/04253695.shtml
+
+原标题：Troubleshoot：异步异常未捕获，进程悄无声息退出
+简介：golang 网卡 ip 读取网络信息获取，程序读取本机网卡 IP，多网卡环境筛选业务使用 IP 地址。
+ | 原文链接：3g.kpjy.net.cn/Article/details/85846250.shtml
+
+原标题：设计思考：分布式锁选型、风险、业务约束
+简介：线程池拒绝策略任务丢失防护，合理设置线程池拒绝策略，处理任务队列满场景，避免业务任务直接丢失。
+ | 原文链接：3g.kpjy.net.cn/Article/details/85950584.shtml
+
+原标题：前端水印防信息泄露实现
+简介：golang 分页查询封装通用工具，封装 Go 通用分页工具，统一处理分页参数，简化业务分页接口开发。
+ | 原文链接：3g.kpjy.net.cn/Article/details/85916240.shtml
+
+原标题：golang 限流熔断降级完整示例
+简介：golang context.WithValue 传递元数据，WithValue 只传 traceId 鉴权元数据，不要传业务大对象。
+ | 原文链接：3g.kpjy.net.cn/Article/details/96152472.shtml
+
+原标题：golang 数据库慢查询监控实现
+简介：nodejs 跨域中间件配置细节，Express 跨域中间件配置细节，处理预检请求，修复偶现跨域失效。
+ | 原文链接：3g.kpjy.net.cn/Article/details/42694847.shtml
+
+原标题：记一次分布式锁失效引发的数据错乱问题
+简介：跨平台 uniapp 多端开发实操，uniapp 开发一套代码，编译多端，梳理多端差异处理与适配技巧。
+ | 原文链接：3g.kpjy.net.cn/Article/details/84149281.shtml
+
+原标题：代码格式化工具团队统一风格
+简介：golang bufio 缓冲读写性能优化，bufio 带缓冲读写，减少系统调用，提升文件网络 IO 性能。
+ | 原文链接：3g.kpjy.net.cn/Article/details/75958170.shtml
+
+原标题：golang 系统设计消息重试次数间隔策略设置
+简介：golang go 无锁并发编程技巧，原子操作 sync/atomic，简单场景替换锁，提升并发性能。
+ | 原文链接：3g.kpjy.net.cn/Article/details/53604847.shtml
+
+原标题：Troubleshoot：跨域偶现失败难以复现问题
+简介：golang tar gz 压缩解压处理，tar.gz 归档压缩解压，服务端日志备份、文件打包场景使用。
+ | 原文链接：3g.kpjy.net.cn/Article/details/41516918.shtml
+
+原标题：golang 集成测试启动测试数据库
+简介：大事务拆分防止连接池耗尽，将执行时间很长的大事务拆分为小事务，减少事务占用连接时长。
+ | 原文链接：3g.kpjy.net.cn/Article/details/07278395.shtml
+
+原标题：Git 代码冲突正确处理方式
+简介：nestjs 权限守卫鉴权实现方案，使用 Nest 守卫实现接口鉴权，角色权限控制，拦截未授权接口访问。
+ | 原文链接：3g.kpjy.net.cn/Article/details/63627373.shtml
+
+原标题：Troubleshoot：RPC序列化对象字段增减兼容踩坑
+简介：golang elasticsearch 客户端 golang 实操，es 客户端文档增删改查，条件搜索聚合统计对接搜索引擎。
+ | 原文链接：3g.kpjy.net.cn/Article/details/70805706.shtml
+
+原标题：排错：容器OOM被杀死，日志看不到任何输出
+简介：golang net.Conn 包装自定义连接，包装 net.Conn，统计读写字节，日志打印，超时控制。
+ | 原文链接：3g.kpjy.net.cn/Article/details/07116970.shtml
+
+原标题：新手向：npm/pip/maven依赖版本冲突入门排查
+简介：golang 任务失败重试与死信队列，异步任务失败自动重试，超过重试次数进入死信队列人工处理。
+ | 原文链接：3g.kpjy.net.cn/Article/details/29695706.shtml
+
+四、架构设计｜Architecture
+原标题：golang 系统设计 mq 消息重复消费处理
+简介：多实例部署 Session 共享方案，多服务实例部署场景，实现 Session 共享，保证用户登录状态跨实例生效。
+ | 原文链接：3g.kpjy.net.cn/Article/details/52727069.shtml
+
+原标题：入门实践：简单批量处理脚本编写
+简介：golang 链路追踪简易实现方案，简易链路追踪实现，传递 traceId，记录调用链路，方便排查慢调用。
+ | 原文链接：3g.kpjy.net.cn/Article/details/71571469.shtml
+
+原标题：方案对比：本地缓存vs分布式缓存架构取舍
+简介：golang hertz 性能优化参数调优，hertz 连接池、缓冲区参数调优，最大化接口吞吐性能。
+ | 原文链接：3g.kpjy.net.cn/Article/details/60143465.shtml
+
+原标题：站内邮件消息通知功能开发
+简介：golang json omitempty 零值坑，omitempty 会忽略零值，区分业务是否需要输出零值字段。
+ | 原文链接：3g.kpjy.net.cn/Article/details/56999102.shtml
+
+原标题：golang lru 缓存淘汰算法编写
+简介：golang sync.WaitGroup 协程等待控制，WaitGroup 控制一组协程等待全部执行完成，完成批量协程任务调度。
+ | 原文链接：3g.kpjy.net.cn/Article/details/93667980.shtml
+
+原标题：golang 系统设计 ci 流水线安全管控思路
+简介：golang go 程序版本号内置编译注入，编译时注入 git commit 版本号，程序运行输出版本便于排查。
+ | 原文链接：3g.kpjy.net.cn/Article/details/74602470.shtml
+
+原标题：golang k8s 镜像拉取密钥配置
+简介：golang fasthttp 客户端连接池调优，fasthttp 客户端连接池配置，复用连接提升请求性能。
+ | 原文链接：3g.kpjy.net.cn/Article/details/15001692.shtml
+
+原标题：golang docker 镜像安全扫描漏洞
+简介：golang http cookie jar 会话处理，客户端 cookie jar 自动管理 cookie，处理登录态会话。
+ | 原文链接：3g.kpjy.net.cn/Article/details/19380625.shtml
+
+原标题：golang 系统设计本地缓存更新失效方案实现
+简介：模拟登录鉴权权限判断示例，实现简易登录流程，会话状态维护，完成接口权限校验，理解身份鉴权基础逻辑。
+ | 原文链接：3g.kpjy.net.cn/Article/details/64956079.shtml
+
+原标题：golang 系统设计雪花算法 id 原理剖析
+简介：golang errors.Is errors.As 错误判断，判断是否为指定错误类型，提取自定义错误信息，错误处理进阶。
+ | 原文链接：3g.kpjy.net.cn/Article/details/74957472.shtml
+
+原标题：golang base64 编码解码实操
+简介：代码格式化工具团队统一风格，接入格式化工具，统一全团队代码书写风格，减少格式类 git 冲突。
+ | 原文链接：3g.kpjy.net.cn/Article/details/73580361.shtml
+
+原标题：项目实践：数据库慢日志采集分析落地实践
+简介：TCP 长连接参数优化 TIME_WAIT，调整 TCP 内核参数，优化长连接，减少大量 TIME_WAIT 连接占用资源。
+ | 原文链接：3g.kpjy.net.cn/Article/details/04802703.shtml
+
+原标题：Hands‑on：静态资源CDN缓存控制头配置实践
+简介：golang 开发环境快速搭建指南，快速完成 Golang 开发环境配置，工具链安装，环境变量设置，准备开发。
+ | 原文链接：3g.kpjy.net.cn/Article/details/29135707.shtml
+
+原标题：git cherry‑pick 规范操作防 bug
+简介：WebSocket 断线重连稳定优化，增加 WebSocket 断线自动重连逻辑，处理网络抖动，维持长连接稳定。
+ | 原文链接：3g.kpjy.net.cn/Article/details/30425131.shtml
+
+原标题：golang 系统设计 graphql 接口优缺点梳理
+简介：golang go toml 配置注释保留，toml 解析保留注释，修改配置后写回保留原有注释。
+ | 原文链接：3g.kpjy.net.cn/Article/details/74937361.shtml
+
+原标题：安全复盘：消息队列未授权访问安全加固
+简介：golang http body 必须关闭的重要性，无论成功失败必须关闭 request.Body，否则连接无法复用泄漏。
+ | 原文链接：3g.kpjy.net.cn/Article/details/85961704.shtml
+
+原标题：golang 集成测试启动测试数据库
+简介：golang 路径处理 filepath 包规范写法，使用 filepath 处理路径拼接分割，自动适配操作系统路径分隔符。
+ | 原文链接：3g.kpjy.net.cn/Article/details/07361626.shtml
+
+原标题：Hands‑on：编写自定义Git钩子实现代码提交校验
+简介：Redis 热点 key 拆分降低集群压力，拆分访问量极高的热点 Key，分散请求压力，避免 Redis 节点压力过高。
+ | 原文链接：3g.kpjy.net.cn/Article/details/96067473.shtml
+
+?
