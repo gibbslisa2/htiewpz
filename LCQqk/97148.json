@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：线上故障：第三方接口超时未设置熔断雪崩
+简介：golang hertz 性能优化参数调优，hertz 连接池、缓冲区参数调优，最大化接口吞吐性能。
+ | 原文链接：http://book.auumif.asia/blog/9361413.sHtMl
+
+原标题：安全笔记：JWT安全风险，签名泄露过期控制
+简介：golang kafka 消费者组重平衡避坑，规避消费者组频繁 rebalance，减少消费抖动，保障消息消费稳定性。
+ | 原文链接：http://book.auumif.asia/blog/3050291.sHtMl
+
+原标题：golang 系统设计内部服务契约测试简单思路
+简介：文件分片上传断点续传功能，实现文件分片上传，记录上传进度，支持断点续传大文件上传。
+ | 原文链接：http://book.auumif.asia/blog/6380593.sHtMl
+
+原标题：优化实践：序列化框架性能对比选型实践
+简介：golang fuzz corpus 语料库使用，fuzz 语料存储历史输入，回归测试，持续复现曾经触发 bug 输入。
+ | 原文链接：http://book.auumif.asia/blog/4267961.sHtMl
+
+原标题：排错：macOS权限保护导致脚本执行被拦截
+简介：异步异常捕获避免进程崩溃，捕获异步代码内部抛出异常，防止未捕获异常直接导致整个进程退出。
+ | 原文链接：http://book.auumif.asia/blog/8661394.sHtMl
+
+原标题：golang 系统设计本地缓存 redis 缓存多级组合
+简介：golang 分布式追踪全链路日志打印，日志打印 traceId，各个服务日志可串联，排查跨服务调用问题。
+ | 原文链接：http://book.auumif.asia/blog/7478171.sHtMl
+
+原标题：5分钟快速搭建个人技术文档站点
+简介：nodejs 多进程任务分发处理，多进程拆分处理 CPU 密集任务，主进程分发任务，利用多核提升处理速度。
+ | 原文链接：http://book.auumif.asia/blog/0816959.sHtMl
+
+原标题：golang 系统设计监控大盘故障快速定位思路
+简介：防火墙 IP 白名单回调接口放行，配置防火墙白名单，放行第三方回调服务器 IP，接收回调请求正常。
+ | 原文链接：http://book.auumif.asia/blog/0746369.sHtMl
+
+原标题：golang csv 读写批量数据处理
+简介：golang benchmark 减少测试干扰，benchmark 执行循环 b.N，避免循环内部做非被测逻辑干扰结果。
+ | 原文链接：http://book.auumif.asia/blog/0824359.sHtMl
+
+原标题：多环境配置中心灵活切换方案
+简介：golang 本地消息表实现最终一致性，本地消息表 + 定时任务轮询，可靠消息实现分布式事务。
+ | 原文链接：http://book.auumif.asia/blog/5370205.sHtMl
+
+原标题：实战项目：本地模拟磁盘IO高负载观察服务行为
+简介：golang interface 接口使用避坑，interface 判 nil 坑点，理解接口底层结构，避免判空逻辑失效。
+ | 原文链接：http://book.auumif.asia/blog/6362470.sHtMl
+
+原标题：golang 系统设计 span 埋点业务代码最小侵入思路
+简介：空指针异常判空容错处理，讲解空指针产生场景，规范判空逻辑，增加容错，避免空指针直接造成程序崩溃。
+ | 原文链接：http://book.auumif.asia/blog/3004738.sHtMl
+
+原标题：架构笔记：分库分表中间件选型业务约束
+简介：golang 表格驱动测试完整示例，表格驱动多组输入输出，批量执行测试用例，减少重复代码。
+ | 原文链接：http://book.auumif.asia/blog/3949283.sHtMl
+
+原标题：性能复盘：锁粒度太大，拆分细粒度锁优化
+简介：golang go 零停机升级实践要点，socket 继承，流量无损，旧连接处理完毕后旧进程退出。
+ | 原文链接：http://book.auumif.asia/blog/5271585.sHtMl
+
+原标题：线程池拒绝策略任务丢失防护
+简介：golang go 输入数据校验防御，所有外部入参严格校验长度格式，防止恶意输入造成业务异常。
+ | 原文链接：http://book.auumif.asia/blog/8606914.sHtMl
+
+原标题：实战项目：本地搭建Prometheus监控完整demo
+简介：golang https 客户端跳过证书校验，开发测试环境跳过 tls 证书校验，仅用于内网测试禁止生产使用。
+ | 原文链接：http://book.auumif.asia/blog/8494707.sHtMl
+
+原标题：HTTP 状态码请求头完整梳理
+简介：golang 数据库慢查询监控实现，Go 封装 SQL 执行监控，记录慢 SQL，上报日志，发现数据库性能问题。
+ | 原文链接：http://book.auumif.asia/blog/5262516.sHtMl
+
+原标题：新手向：项目目录结构规范与含义解析
+简介：pnpm 包管理工具实战避坑指南，使用 pnpm 管理项目依赖，梳理常见坑点，充分利用 pnpm 优势。
+ | 原文链接：http://book.auumif.asia/blog/7473607.sHtMl
+
+原标题：性能笔记：TCP参数内核调优服务高并发场景
+简介：版本升级服务启动失败处理，版本更新之后服务无法启动，对比新旧版本配置、依赖差异，完成故障修复。
+ | 原文链接：http://book.auumif.asia/blog/5261576.sHtMl
+
+原标题：Practice：实现熔断降级组件简单原型代码
+简介：golang go 逃逸分析实操查看，go build‑gcflags=-m 查看逃逸分析，减少堆分配优化程序性能。
+ | 原文链接：http://book.auumif.asia/blog/7491417.sHtMl
+
+原标题：golang redis 锁超时业务处理
+简介：golang 静态编译缩小镜像体积，Go 程序静态编译，不依赖系统库，产出单二进制文件，缩小镜像。
+ | 原文链接：http://book.auumif.asia/blog/5261395.sHtMl
+
+原标题：golang 系统设计网关 ssl 证书配置更新实操
+简介：golang 设置 net.Conn 读写超时，每次读写设置超时，防止连接永久阻塞挂起不返回。
+ | 原文链接：http://book.auumif.asia/blog/5969131.sHtMl
+
+原标题：golang 系统设计内存复用 sync.pool 使用
+简介：vite 插件开发自定义构建逻辑，开发自定义 vite 插件，介入构建生命周期，实现项目个性化构建逻辑。
+ | 原文链接：http://book.auumif.asia/blog/1839259.sHtMl
+
+原标题：全平台系统环境变量配置
+简介：golang prometheus 指标埋点开发，业务埋点计数器、仪表盘、直方图，对接 prometheus 采集监控指标。
+ | 原文链接：http://book.auumif.asia/blog/8594915.sHtMl
+
+原标题：零基础理解依赖管理与包管理器
+简介：golang 错误处理最佳实践汇总，Go 错误处理规范，包装错误，堆栈携带，拒绝简单忽略错误。
+ | 原文链接：http://book.auumif.asia/blog/9692838.sHtMl
+
+原标题：开发记录：服务优雅关闭释放资源完整实现
+简介：死信队列处理消息阻塞业务，配置死信队列，处理消费失败消息，避免失败消息阻塞整个队列业务。
+ | 原文链接：http://book.auumif.asia/blog/6378464.sHtMl
+
+原标题：golang consul 服务发现简单示例
+简介：nestjs 拦截器过滤器管道实战，实操 Nest 拦截器、异常过滤器、管道校验，处理请求与响应统一逻辑。
+ | 原文链接：http://book.auumif.asia/blog/5168362.sHtMl
+
+原标题：nodejs 进程间通信 IPC 实操
+简介：Shell 运维脚本服务器效率提升，编写常用运维 Shell 脚本，自动化服务器运维操作，减少手工重复工作。
+ | 原文链接：http://book.auumif.asia/blog/2536740.sHtMl
+
+原标题：service‑worker 离线缓存实践
+简介：主干开发团队代码合并策略，讲解主干开发模式，团队代码合并流程，适合高频迭代的团队协作模式。
+ | 原文链接：http://book.auumif.asia/blog/2949361.sHtMl
+
+原标题：golang 重试退避机制代码实现
+简介：golang go 逃逸分析实操查看，go build‑gcflags=-m 查看逃逸分析，减少堆分配优化程序性能。
+ | 原文链接：http://book.auumif.asia/blog/6502885.sHtMl
+
+原标题：设计思考：业务系统中什么时候不要用微服务
+简介：golang benchmark 参数‑bench‑mem 统计内存分配，benchmark 开启内存统计，观察内存分配次数大小。
+ | 原文链接：http://book.auumif.asia/blog/6373705.sHtMl
+
+原标题：服务健康检查告警监控体系
+简介：golang dns 自定义解析器实现，自定义 dns 解析，指定 dns 服务器，控制域名解析逻辑，适配内网环境。
+ | 原文链接：http://book.auumif.asia/blog/1814927.sHtMl
+
+原标题：golang websocket 消息广播实现
+简介：golang 僵尸进程处理 go 程序，正确等待子进程退出，避免产生僵尸进程，占用系统进程表。
+ | 原文链接：http://book.auumif.asia/blog/5263704.sHtMl
+
+原标题：实战项目：百万日志文件解析处理脚本实践
+简介：golang rate‑limiter 限流组件，封装通用 Go 限流组件，支持多算法，业务接口直接复用调用。
+ | 原文链接：http://book.auumif.asia/blog/4860172.sHtMl
+
+原标题：golang 系统设计服务优雅停机完整流程
+简介：开源源码阅读拆解学习思路，分享阅读大型开源项目方法，从入口文件逐层拆解模块，降低源码学习门槛。
+ | 原文链接：http://book.auumif.asia/blog/1838062.sHtMl
+
+原标题：快速入门GraphQL基础查询语法示例
+简介：golang sync.Once 只执行一次，sync.Once 做单例初始化，保证代码只执行一次，并发安全。
+ | 原文链接：http://book.auumif.asia/blog/4158481.sHtMl
+
+原标题：golang 系统设计容器 OOM 故障完整排查
+简介：日志敏感信息脱敏泄露防护，日志打印时自动脱敏手机号身份证，避免日志输出泄露用户隐私数据。
+ | 原文链接：http://book.auumif.asia/blog/7031304.sHtMl
+
+原标题：排错：macOS权限保护导致脚本执行被拦截
+简介：前端图片懒加载性能优化，实现图片懒加载，页面可视区域才加载图片，减少页面初始网络请求。
+ | 原文链接：http://book.auumif.asia/blog/2930250.sHtMl
+
+原标题：golang 系统设计 rest 版本管理几种方案对比
+简介：golang nilnil interface 陷阱复现，interface 包含类型不为 nil 值为 nil，判 ==nil 返回 false 经典坑。
+ | 原文链接：http://book.auumif.asia/blog/1836159.sHtMl
+
+原标题：golang 系统设计 tcc 事务简单原理业务示例
+简介：golang channel 通道并发处理，讲解 Channel 用法，协程之间通过通道传递数据，做并发同步控制。
+ | 原文链接：http://book.auumif.asia/blog/9616251.sHtMl
+
+
+二、踩坑排错｜Troubleshooting
+原标题：golang 系统设计接口防刷 ip 限流实现
+简介：golang testify testify 断言库使用，testify assert require 断言，简化单元测试断言代码。
+ | 原文链接：http://book.auumif.asia/blog/7292483.sHtMl
+
+原标题：golang 系统设计网关性能压测优化简单思路
+简介：golang go 变量逃逸场景汇总，切片、指针、返回局部变量引发逃逸，变量分配到堆影响 GC。
+ | 原文链接：http://book.auumif.asia/blog/7480586.sHtMl
+
+原标题：记一次日志切割脚本错误直接清空业务日志
+简介：golang dns 自定义解析器实现，自定义 dns 解析，指定 dns 服务器，控制域名解析逻辑，适配内网环境。
+ | 原文链接：http://book.auumif.asia/blog/4868477.sHtMl
+
+原标题：数值 key 浮点匹配异常规避
+简介：Cookie Session 会话状态管理，讲解 Cookie 与 Session 原理，理解登录状态保存，实现服务端会话管理逻辑。
+ | 原文链接：http://book.auumif.asia/blog/2036703.sHtMl
+
+原标题：方案设计：统一ID生成服务架构对比雪花算法
+简介：golang go 基准测试 benchmark 编写，Benchmark 性能基准测试，测量函数执行耗时内存分配情况。
+ | 原文链接：http://book.auumif.asia/blog/4736814.sHtMl
+
+原标题：实践：数据库备份脚本自动化编写实践
+简介：golang bufio.Scanner 按行读取大文件，Scanner 逐行读取文本文件，处理超大日志 csv。
+ | 原文链接：http://book.auumif.asia/blog/0492314.sHtMl
+
+原标题：Performance：避免循环查询N+1问题完整优化
+简介：文件句柄上限调整上传随机失败，调高系统文件句柄上限，解决高并发上传场景随机打开文件失败。
+ | 原文链接：http://book.auumif.asia/blog/4814258.sHtMl
+
+原标题：CI 流水线构建失败日志排查
+简介：多套环境灵活切换配置方案，实现配置动态切换，通过环境变量、配置文件，快速切换开发测试生产环境。
+ | 原文链接：http://book.auumif.asia/blog/6381696.sHtMl
+
+原标题：golang excel 简单读写操作示例
+简介：golang 跨域处理中间件编写，Gin 跨域中间件开发，处理预检 OPTIONS 请求，解决浏览器跨域报错。
+ | 原文链接：http://book.auumif.asia/blog/3069325.sHtMl
+
+原标题：golang 系统设计内部 rpc 接口设计原则梳理
+简介：golang go 第三方库选型评估要点，评估库活跃度维护情况、性能、依赖数量，选择合适开源库。
+ | 原文链接：http://book.auumif.asia/blog/7480572.sHtMl
+
+原标题：Hands‑on：本地模拟消息重复消费处理实践
+简介：golang 漏桶算法实现接口限流，漏桶算法控制请求流出速率，平滑突发流量，削平流量峰值。
+ | 原文链接：http://book.auumif.asia/blog/0828816.sHtMl
+
+原标题：golang k8s hpa 水平 pod 自动扩缩容
+简介：golang sort 搜索查找切片元素，sort.Search 二分查找有序切片，快速定位元素索引位置。
+ | 原文链接：http://book.auumif.asia/blog/3081281.sHtMl
+
+原标题：Shell 运维脚本服务器效率提升
+简介：golang mqtt 客户端 go 开发物联网，paho.mqtt.golang 实现 mqtt 客户端，物联网设备消息收发。
+ | 原文链接：http://book.auumif.asia/blog/6339693.sHtMl
+
+原标题：golang mongodb 事务多文档使用
+简介：golang rsa 非对称加密签名验签，RSA 非对称加密与签名验签，实现非对称安全通信。
+ | 原文链接：http://book.auumif.asia/blog/0374686.sHtMl
+
+原标题：性能复盘：热点key导致RedisCPU飙升优化
+简介：浮点计算精度错误处理方案，讲解浮点数计算精度丢失问题，使用合适数据类型，规避金额计算出错。
+ | 原文链接：http://book.auumif.asia/blog/1951304.sHtMl
+
+原标题：坑点：依赖缓存未更新，旧代码持续运行
+简介：golang kitex 中间件与元数据传递，kitex 自定义中间件，透传 traceId 鉴权元数据，统一处理请求。
+ | 原文链接：http://book.auumif.asia/blog/1836142.sHtMl
+
+原标题：golang 系统设计缓存一致性方案对比
+简介：golang httptest 模拟外部 http 服务，httptest.NewServer 模拟第三方 http 服务，单元测试 mock 外部接口。
+ | 原文链接：http://book.auumif.asia/blog/5370571.sHtMl
+
+原标题：安全笔记：HTTPSTLS配置安全加固实践
+简介：golang 协程数量监控统计方案，统计运行中 goroutine 数量，监控协程泄露，协程数量异常及时告警。
+ | 原文链接：http://book.auumif.asia/blog/0306683.sHtMl
+
+原标题：golang 系统设计限流服务架构讲解
+简介：文件编码统一随机乱码修复，统一项目全部文件读写编码，消除随机中文乱码，保证文本处理稳定。
+ | 原文链接：http://book.auumif.asia/blog/7594700.sHtMl
+
+原标题：golang 系统设计消息重试次数间隔策略设置
+简介：golang 响应 body 流式返回大数据，http 流式输出数据，边生成边返回，无需在内存组装完整返回结果。
+ | 原文链接：http://book.auumif.asia/blog/8092705.sHtMl
+
+原标题：golang websocket 消息广播实现
+简介：数值类型溢出错乱问题修复，选择合适数值存储类型，处理数值溢出，避免数据存储错乱结果异常。
+ | 原文链接：http://book.auumif.asia/blog/4036152.sHtMl
+
+原标题：Hands‑on：编写自定义Git钩子实现代码提交校验
+简介：golang 协程数量监控统计方案，统计运行中 goroutine 数量，监控协程泄露，协程数量异常及时告警。
+ | 原文链接：http://book.auumif.asia/blog/0605027.sHtMl
+
+原标题：Security：反序列化漏洞风险识别与规避
+简介：golang 日志脱敏敏感字段过滤，日志打印自动脱敏敏感字段，避免日志输出手机号身份证泄露隐私。
+ | 原文链接：http://book.auumif.asia/blog/7506749.sHtMl
+
+原标题：golang 系统设计分布式锁可重入实现思路
+简介：Redis 大 key 拆分集群卡顿解决，拆分 Redis 超大 Key，避免大 key 操作造成 Redis 集群卡顿阻塞。
+ | 原文链接：http://book.auumif.asia/blog/3829131.sHtMl
+
+原标题：golang gin 静态资源访问配置
+简介：开发生产环境资源路径统一，对齐开发环境与生产环境资源路径，防止本地正常上线后资源找不到。
+ | 原文链接：http://book.auumif.asia/blog/6363503.sHtMl
+
+原标题：golang 系统设计故障止损降级回滚执行原则
+简介：golang go http 安全头配置实践，设置 http 安全响应头，防范 XSS、点击劫持，提升 web 服务安全性。
+ | 原文链接：http://book.auumif.asia/blog/9636846.sHtMl
+
+原标题：性能笔记：操作系统文件句柄、虚拟内存调优
+简介：golang 数据库连接泄露排查，定位 Go 数据库连接泄露，连接没有归还池，导致连接耗尽报错。
+ | 原文链接：http://book.auumif.asia/blog/9604929.sHtMl
+
+原标题：golang 系统设计 protobuf 可选字段使用技巧
+简介：golang hertz 性能优化参数调优，hertz 连接池、缓冲区参数调优，最大化接口吞吐性能。
+ | 原文链接：http://book.auumif.asia/blog/1525136.sHtMl
+
+原标题：坑点：缓存穿透，大量无效请求打穿数据库
+简介：golang prometheus 指标埋点开发，业务埋点计数器、仪表盘、直方图，对接 prometheus 采集监控指标。
+ | 原文链接：http://book.auumif.asia/blog/0719469.sHtMl
+
+原标题：优化实践：LRU本地缓存优化热点访问性能
+简介：golang mongodb 索引优化慢查询处理，mongodb 创建索引，分析慢查询，优化聚合查询执行性能。
+ | 原文链接：http://book.auumif.asia/blog/0425149.sHtMl
+
+原标题：Hands‑on：简易的事件订阅发布组件开发实践
+简介：golang 单元测试 table‑driven，表格驱动单元测试写法，批量输入多组测试用例，简化单元测试代码。
+ | 原文链接：http://book.auumif.asia/blog/8502703.sHtMl
+
+原标题：调优方案：JVM内存参数优化，降低GC频率
+简介：golang prometheus http 接口暴露指标，暴露 prometheus metrics 接口，输出业务运行指标，接入监控告警系统。
+ | 原文链接：http://book.auumif.asia/blog/2936251.sHtMl
+
+原标题：开发环境变量配置全平台教程
+简介：golang sync.Map 高并发 map 使用场景，sync.Map 适用场景，读写实操，对比普通 map 加锁性能差异。
+ | 原文链接：http://book.auumif.asia/blog/3924039.sHtMl
+
+原标题：内存溢出问题现象识别排查
+简介：golang udp 服务端客户端开发示例，golang 实现 UDP 服务收发数据包，实现 udp 协议通信程序。
+ | 原文链接：http://book.auumif.asia/blog/4153624.sHtMl
+
+原标题：golang k8s cronjob 定时任务配置
+简介：golang redis 事务 multi exec 使用，Redis 事务 multi exec 实现批量命令原子执行，理解 redis 事务隔离特性。
+ | 原文链接：http://book.auumif.asia/blog/3817958.sHtMl
+
+原标题：golang 系统设计死信队列 dlq 业务落地完整流程
+简介：golang select 随机分支执行特性，多个 channel 就绪 select 随机选择，理解 select 行为特性。
+ | 原文链接：http://book.auumif.asia/blog/3747847.sHtMl
+
+原标题：零基础理解读写分离基础思想
+简介：接口幂等性防重复请求实现，实现接口幂等逻辑，避免重复提交请求产生多条脏数据，保障业务数据安全。
+ | 原文链接：http://book.auumif.asia/blog/7192691.sHtMl
+
+原标题：golang 系统设计网关限流熔断降级配置思路
+简介：golang http 客户端连接泄漏排查，http client 未读取响应体导致连接无法复用，解决连接泄漏耗尽连接池。
+ | 原文链接：http://book.auumif.asia/blog/6371602.sHtMl
+
+原标题：安全复盘：业务接口越权测试与修复实践
+简介：golang hystrix 模式简易熔断实现，简易熔断组件，错误率达到阈值触发熔断，快速失败保护下游。
+ | 原文链接：http://book.auumif.asia/blog/4279058.sHtMl
+
+原标题：安全实践：API密钥管理轮换最佳实践
+简介：golang go 项目工程目录布局标准，不同规模 go 项目目录结构，小型项目中型项目大型微服务项目布局。
+ | 原文链接：http://book.auumif.asia/blog/5263514.sHtMl
+
+三、实战开发｜Practice
+原标题：nestjs 拦截器过滤器管道实战
+简介：golang 进程信号捕获 SIGUSR 自定义信号，捕获用户自定义信号，实现线上不重启触发调试、日志切换。
+ | 原文链接：http://book.auumif.asia/blog/6040263.sHtMl
+
+原标题：架构笔记：业务操作审计日志系统架构设计
+简介：golang docker compose 开发环境 go 服务，docker compose 编排 go 服务与中间件，本地一键拉起整套开发环境。
+ | 原文链接：http://book.auumif.asia/blog/9714917.sHtMl
+
+原标题：golang proto 默认值坑点梳理
+简介：手写简易 MQ 理解消息存储消费，手写极简消息队列 Demo，理解消息存储、投递、消费完整流程。
+ | 原文链接：http://book.auumif.asia/blog/8593824.sHtMl
+
+原标题：轻量 API 后端接口服务快速开发
+简介：配置与镜像分离防止信息泄露，业务配置不打包进镜像，外部挂载配置，避免密钥配置随镜像泄露。
+ | 原文链接：http://book.auumif.asia/blog/9528352.sHtMl
+
+原标题：效率笔记：Git高级命令日常开发高频使用汇总
+简介：golang redis 过期键监听回调，监听 key 过期事件，过期触发业务逻辑，实现过期自动处理业务场景。
+ | 原文链接：http://book.auumif.asia/blog/4164694.sHtMl
+
+原标题：设计思考：业务系统中什么时候不要用微服务
+简介：golang go 比较运算符可比较类型，哪些类型可以直接 == 比较，map slice 函数不可直接比较。
+ | 原文链接：http://book.auumif.asia/blog/2048369.sHtMl
+
+原标题：golang etcd 分布式锁实现原理
+简介：golang sync.Pool 对象池复用对象，sync.Pool 复用临时对象，减少内存分配，降低 GC 频率提升性能。
+ | 原文链接：http://book.auumif.asia/blog/4162536.sHtMl
+
+原标题：golang lru 缓存淘汰算法编写
+简介：golang 配置文件多格式兼容加载，同时支持 yaml toml json 多种格式配置文件，灵活适配不同部署环境。
+ | 原文链接：http://book.auumif.asia/blog/0704941.sHtMl
+
+原标题：项目实践：MySQL读写分离本地模拟实践
+简介：Redis 内存淘汰策略数据防丢失，合理配置 Redis 内存淘汰策略，防止内存满后误删除业务重要数据。
+ | 原文链接：http://book.auumif.asia/blog/7483846.sHtMl
+
+原标题：Git commit 钩子提交规范校验
+简介：golang 消息队列 kafka 消费开发，Go 开发 Kafka 消费程序，消费消息执行业务，理解 Kafka 消费逻辑。
+ | 原文链接：http://book.auumif.asia/blog/4160473.sHtMl
+
+原标题：golang 系统设计 canary 金丝雀部署实操
+简介：golang fuzz corpus 语料库使用，fuzz 语料存储历史输入，回归测试，持续复现曾经触发 bug 输入。
+ | 原文链接：http://book.auumif.asia/blog/0728818.sHtMl
+
+原标题：golang jwt 鉴权中间件完整示例
+简介：golang ip 限流黑名单实现方案，基于 IP 做限流与黑名单，拦截恶意 IP 访问，保护接口服务。
+ | 原文链接：http://book.auumif.asia/blog/7595737.sHtMl
+
+原标题：HelloEnv：多操作系统环境变量配置汇总
+简介：静态站点自动部署发布方案，配置流水线，代码更新自动构建静态站点并且部署上线，简化发布。
+ | 原文链接：http://book.auumif.asia/blog/4868929.sHtMl
+
+原标题：golang 系统设计数据库扩容几种方式
+简介：死信队列处理消息阻塞业务，配置死信队列，处理消费失败消息，避免失败消息阻塞整个队列业务。
+ | 原文链接：http://book.auumif.asia/blog/3058270.sHtMl
+
+原标题：CLI 批量处理工具文件操作开发
+简介：golang 静态文件服务搭建教程，Go 搭建静态文件服务，托管静态资源，实现文件直接对外访问。
+ | 原文链接：http://book.auumif.asia/blog/4818281.sHtMl
+
+原标题：golang 链路追踪简易实现方案
+简介：golang tidb 数据库 go 项目适配，go 程序适配 tidb，兼容 mysql 协议，分布式数据库业务开发。
+ | 原文链接：http://book.auumif.asia/blog/7415025.sHtMl
+
+原标题：踩坑：重试逻辑未做幂等，重复生成业务数据
+简介：golang 错误栈捕获打印方案，捕获错误完整调用堆栈，线上日志输出堆栈，快速定位错误发生代码位置。
+ | 原文链接：http://book.auumif.asia/blog/7192402.sHtMl
+
+原标题：入门实践：使用模板快速生成项目脚手架
+简介：项目构建脚本编译打包解析，解读项目构建脚本，理清编译、压缩、资源复制流程，理解打包后产物如何生成。
+ | 原文链接：http://book.auumif.asia/blog/1484525.sHtMl
+
+原标题：golang 系统设计 pre‑commit 钩子本地代码校验
+简介：缓存穿透防护保护数据库，实现缓存穿透防护手段，拦截不存在的数据查询，避免请求直接打穿数据库。
+ | 原文链接：http://book.auumif.asia/blog/3062780.sHtMl
+
+原标题：vite 项目配置与构建提速技巧
+简介：文件锁正确使用避免死锁，合理使用文件锁，控制多进程访问同一个文件，规避文件锁死锁现象。
+ | 原文链接：http://book.auumif.asia/blog/3017970.sHtMl
+
+原标题：开发复盘：数据库批量更新优化性能实践
+简介：golang 参数校验业务接口处理，Go 接口入参参数校验，拦截非法入参，减少业务层参数判断代码。
+ | 原文链接：http://book.auumif.asia/blog/6484524.sHtMl
+
+原标题：Practice：模拟主从延迟业务兼容方案实践
+简介：Redis 热点 key 拆分降低集群压力，拆分访问量极高的热点 Key，分散请求压力，避免 Redis 节点压力过高。
+ | 原文链接：http://book.auumif.asia/blog/5258469.sHtMl
+
+原标题：对象存储上传下载权限实操
+简介：golang go‑fuzz 模糊测试开发，go fuzz 模糊测试，自动构造异常输入，发现代码隐藏 bug。
+ | 原文链接：http://book.auumif.asia/blog/9603930.sHtMl
+
+原标题：Git 仓库瘦身加快克隆下载速度
+简介：golang grpc metadata 元数据透传，metadata 传递 traceId、鉴权信息，全链路透传上下文信息。
+ | 原文链接：http://book.auumif.asia/blog/8503681.sHtMl
+
+原标题：排错：对象存储跨域配置不生效前端上传失败
+简介：golang 处理连接被重置 reset 错误，识别 connection reset by peer，对端关闭连接异常处理逻辑。
+ | 原文链接：http://book.auumif.asia/blog/1969579.sHtMl
+
+原标题：实践：消息队列死信处理业务落地实践
+简介：日志驱动异常日志不输出修复，排查日志驱动配置，修复日志写入配置，恢复程序正常日志输出。
+ | 原文链接：http://book.auumif.asia/blog/6363536.sHtMl
+
+原标题：实战项目：WSL开发环境完整配置实操
+简介：golang os 主机名内核版本读取，os 读取主机名，内核信息，操作系统版本，获取运行环境信息。
+ | 原文链接：http://book.auumif.asia/blog/7604936.sHtMl
+
+原标题：实战：单元测试+集成测试完整项目落地实践
+简介：接口幂等性防重复请求实现，实现接口幂等逻辑，避免重复提交请求产生多条脏数据，保障业务数据安全。
+ | 原文链接：http://book.auumif.asia/blog/4169369.sHtMl
+
+原标题：golang 系统设计接口幂等架构设计
+简介：内存溢出问题现象识别排查，识别内存溢出现象，梳理排查方向，定位内存持续上涨引发服务崩溃问题。
+ | 原文链接：http://book.auumif.asia/blog/5279479.sHtMl
+
+原标题：部署复盘：GitHubActions完整自动化配置
+简介：golang gin 获取客户端真实 IP，多层代理场景正确拿到用户真实访问 IP，避免拿到网关代理内网地址。
+ | 原文链接：http://book.auumif.asia/blog/1825736.sHtMl
+
+原标题：实践：API接口文档自动导出离线文档实践
+简介：golang raw socket 底层网络报文收发，raw socket 收发原始网络报文，做网络抓包数据包处理。
+ | 原文链接：http://book.auumif.asia/blog/2506707.sHtMl
+
+原标题：架构复盘：服务优雅停机架构设计资源释放
+简介：golang bufio 缓冲读写性能优化，bufio 带缓冲读写，减少系统调用，提升文件网络 IO 性能。
+ | 原文链接：http://book.auumif.asia/blog/8594515.sHtMl
+
+原标题：golang github actions 多平台构建
+简介：golang 路径处理 filepath 包规范写法，使用 filepath 处理路径拼接分割，自动适配操作系统路径分隔符。
+ | 原文链接：http://book.auumif.asia/blog/2942806.sHtMl
+
+原标题：开源项目构建失败排查步骤
+简介：golang go 防止路径穿越攻击，文件操作校验路径，拒绝../ 路径穿越，禁止访问系统任意文件。
+ | 原文链接：http://book.auumif.asia/blog/9673724.sHtMl
+
+原标题：golang consul 服务发现简单示例
+简介：golang strings.Builder 字符串高效拼接，strings.Builder 做字符串拼接，比 += 性能更高，减少内存拷贝。
+ | 原文链接：http://book.auumif.asia/blog/7591684.sHtMl
+
+原标题：golang 系统设计 grpc http2 多路复用讲解
+简介：TLS 版本兼容 HTTPS 握手失败，兼容老旧 TLS 协议版本，修复部分客户端 HTTPS 握手失败无法访问。
+ | 原文链接：http://book.auumif.asia/blog/8503403.sHtMl
+
+原标题：golang 系统设计契约测试接口兼容性保障思路
+简介：golang 表格驱动测试完整示例，表格驱动多组输入输出，批量执行测试用例，减少重复代码。
+ | 原文链接：http://book.auumif.asia/blog/8597857.sHtMl
+
+原标题：golang etcd 分布式锁实现原理
+简介：golang 钉钉企业微信告警消息推送，go 调用企业微信钉钉接口，推送告警通知、业务消息。
+ | 原文链接：http://book.auumif.asia/blog/7369362.sHtMl
+
+原标题：nodejs 中间件模式原理剖析
+简介：golang go 并发模式 fan‑out fan‑in，fanout 分发任务 fanin 汇总结果，多协程并发处理任务。
+ | 原文链接：http://book.auumif.asia/blog/7484627.sHtMl
+
+原标题：架构复盘：容器资源隔离架构CPU内存限制设计
+简介：文件编码统一随机乱码修复，统一项目全部文件读写编码，消除随机中文乱码，保证文本处理稳定。
+ | 原文链接：http://book.auumif.asia/blog/6070691.sHtMl
+
+四、架构设计｜Architecture
+原标题：golang 系统设计逻辑删除物理删除选型对比
+简介：golang 压缩 zip 文件生成解压，golang 实现 zip 压缩打包，解压 zip 归档文件，处理批量文件归档。
+ | 原文链接：http://book.auumif.asia/blog/8190571.sHtMl
+
+原标题：线上异常：时间时区问题，定时任务执行偏移
+简介：数据库排序规则统一结果一致，统一数据库表排序规则，解决不同环境查询排序结果不一致问题。
+ | 原文链接：http://book.auumif.asia/blog/3041291.sHtMl
+
+原标题：golang 系统设计 README 开源文档模板
+简介：golang GC 频繁 STW 停顿优化，减少小对象分配，调整 GOGC，降低 GC 停顿对接口延迟影响。
+ | 原文链接：http://book.auumif.asia/blog/2949179.sHtMl
+
+原标题：golang docker compose 本地开发最佳实践
+简介：golang go toml 配置注释保留，toml 解析保留注释，修改配置后写回保留原有注释。
+ | 原文链接：http://book.auumif.asia/blog/2836036.sHtMl
+
+原标题：排错：对象存储跨域配置不生效前端上传失败
+简介：golang 内存碎片问题识别与规避，大量小对象频繁分配产生内存碎片，通过对象池减少碎片。
+ | 原文链接：http://book.auumif.asia/blog/2958362.sHtMl
+
+原标题：golang 系统设计接口频率限制业务落地
+简介：golang https 客户端跳过证书校验，开发测试环境跳过 tls 证书校验，仅用于内网测试禁止生产使用。
+ | 原文链接：http://book.auumif.asia/blog/6379063.sHtMl
+
+原标题：Hands‑on：简易熔断逻辑状态机原型实现
+简介：golang context 取消传播机制，父 ctx 取消，所有派生子 context 全部被取消，理解上下文传播。
+ | 原文链接：http://book.auumif.asia/blog/4357686.sHtMl
+
+原标题：站内邮件消息通知功能开发
+简介：golang mongodb 索引优化慢查询处理，mongodb 创建索引，分析慢查询，优化聚合查询执行性能。
+ | 原文链接：http://book.auumif.asia/blog/9921822.sHtMl
+
+原标题：golang mysql 字符集排序规则设置
+简介：K8s 镜像拉取网络故障修复，排查 K8s 集群镜像拉取网络问题，配置镜像源，恢复镜像正常拉取。
+ | 原文链接：http://book.auumif.asia/blog/6010992.sHtMl
+
+原标题：时间精度统一业务判断修复
+简介：golang 静态文件服务搭建教程，Go 搭建静态文件服务，托管静态资源，实现文件直接对外访问。
+ | 原文链接：http://book.auumif.asia/blog/6013335.sHtMl
+
+原标题：零基础理解HTTP常用请求头与状态码
+简介：nodejs 中间件模式原理剖析，拆解 Node 中间件设计模式，理解请求逐层处理流转的底层原理。
+ | 原文链接：http://book.auumif.asia/blog/7902020.sHtMl
+
+原标题：golang 系统设计配置本地缓存降级策略方案
+简介：golang 配置文件多格式兼容加载，同时支持 yaml toml json 多种格式配置文件，灵活适配不同部署环境。
+ | 原文链接：http://book.auumif.asia/blog/4890000.sHtMl
+
+原标题：Issue：容器日志驱动配置错误日志全部丢失
+简介：golang go decimal 定点小数金额计算，decimal 库处理金额，规避 float64 精度丢失，财务计算。
+ | 原文链接：http://book.auumif.asia/blog/5609699.sHtMl
+
+原标题：服务器 Swap 关闭提升响应速度
+简介：分布式任务调度集群原型开发，开发简易分布式调度原型，集群多节点运行，保证任务只执行一次。
+ | 原文链接：http://book.auumif.asia/blog/4897980.sHtMl
+
+原标题：SourceMap 生成线上报错定位
+简介：HTTP 状态码请求头完整梳理，汇总常用 HTTP 状态码与请求头含义，帮助快速看懂网络请求，排查接口通信问题。
+ | 原文链接：http://book.auumif.asia/blog/4811133.sHtMl
+
+原标题：开源实践：维护开源项目Issue管理经验总结
+简介：golang 反向代理 http 服务开发，手写简易 http 反向代理，转发请求，修改请求头响应头。
+ | 原文链接：http://book.auumif.asia/blog/0918960.sHtMl
+
+原标题：性能笔记：连接池参数调优数据库RPC连接池
+简介：从零编写简易 CLI 命令行工具，通过实战案例实现基础命令交互，理解命令行程序执行逻辑，产出可运行小工具。
+ | 原文链接：http://book.auumif.asia/blog/9045235.sHtMl
+
+原标题：golang 系统设计线上 ddl 变更安全执行思路
+简介：golang gorm 原生 SQL 执行处理，复杂场景执行原生 SQL，处理返回结果集，兼顾性能与灵活性。
+ | 原文链接：http://book.auumif.asia/blog/5936390.sHtMl
+
+?
