@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：golang goroutine 协程基础实操
+简介：简易网关请求路由过滤模拟，模拟网关基础能力，实现请求路由转发、简单过滤，理解网关核心工作逻辑。
+ | 原文链接：http://wap.ionpjp.asia/blog/1879037.sHtMl
+
+原标题：优化实践：接口返回字段裁剪减少报文大小
+简介：golang context.WithValue 传递元数据，WithValue 只传 traceId 鉴权元数据，不要传业务大对象。
+ | 原文链接：http://wap.ionpjp.asia/blog/8705286.sHtMl
+
+原标题：零基础理解内存溢出基础现象与表现
+简介：开源项目构建失败排查步骤，梳理构建报错排查流程，从依赖、网络、权限、脚本多角度定位项目构建失败原因。
+ | 原文链接：http://wap.ionpjp.asia/blog/0023025.sHtMl
+
+原标题：WSL 内存上限限制防止资源耗尽
+简介：golang 压缩 zip 文件生成解压，golang 实现 zip 压缩打包，解压 zip 归档文件，处理批量文件归档。
+ | 原文链接：http://wap.ionpjp.asia/blog/2141320.sHtMl
+
+原标题：axios 二次封装请求拦截处理
+简介：golang go 排序 sort 包自定义排序，sort 包实现自定义排序逻辑，对切片按业务规则排序。
+ | 原文链接：http://wap.ionpjp.asia/blog/6133202.sHtMl
+
+原标题：Practice：模拟数据库故障验证降级逻辑实践
+简介：golang prometheus client 业务埋点实操，prometheus client‑go 业务埋点，计数器、仪表盘、直方图指标开发。
+ | 原文链接：http://wap.ionpjp.asia/blog/4363390.sHtMl
+
+原标题：性能复盘：锁粒度太大，拆分细粒度锁优化
+简介：序列化版本不一致解析失败，保证序列化对象版本对齐，修复版本不匹配导致对象反序列化失败。
+ | 原文链接：http://wap.ionpjp.asia/blog/8795781.sHtMl
+
+原标题：异步任务堆积消费能力优化
+简介：Mock 接口服务快速搭建实操，搭建模拟后端接口，自定义返回数据、延迟响应，前端开发阶段无需依赖真实后端服务。
+ | 原文链接：http://wap.ionpjp.asia/blog/7689803.sHtMl
+
+原标题：排错：前端sourcemap错误线上无法定位报错
+简介：短信服务封装失败自动重试，封装短信发送组件，处理发送失败自动重试，兼容多短信服务商。
+ | 原文链接：http://wap.ionpjp.asia/blog/4351925.sHtMl
+
+原标题：golang 系统设计消息消费 offset 管理策略
+简介：golang go http 安全头配置实践，设置 http 安全响应头，防范 XSS、点击劫持，提升 web 服务安全性。
+ | 原文链接：http://wap.ionpjp.asia/blog/8742318.sHtMl
+
+原标题：golang 系统设计短链接服务实现思路
+简介：golang 错误栈捕获打印方案，捕获错误完整调用堆栈，线上日志输出堆栈，快速定位错误发生代码位置。
+ | 原文链接：http://wap.ionpjp.asia/blog/5485747.sHtMl
+
+原标题：开发记录：接口请求日志记录完整中间件实现
+简介：TCP 心跳检测清理僵死连接，开启 TCP 心跳机制，自动清理僵死无效连接，释放连接资源。
+ | 原文链接：http://wap.ionpjp.asia/blog/4150364.sHtMl
+
+原标题：Troubleshoot：跨域偶现失败难以复现问题
+简介：golang wasm webassembly go 编译，go 编译为 wasm，浏览器执行 go 代码，拓展 go 运行场景。
+ | 原文链接：http://wap.ionpjp.asia/blog/1494730.sHtMl
+
+原标题：开发复盘：避免大报文导致服务OOM优化实践
+简介：网络读取超时设置连接挂起防护，设置网络读取超时时间，防止请求无限挂起不返回，占用连接资源。
+ | 原文链接：http://wap.ionpjp.asia/blog/5944793.sHtMl
+
+原标题：踩坑：Docker容器内时区不一致引发的时间BUG
+简介：golang grpc keepalive 保活配置，grpc keepalive 参数调优，检测断开僵死连接，释放无效连接资源。
+ | 原文链接：http://wap.ionpjp.asia/blog/3881461.sHtMl
+
+原标题：golang 系统设计一致性哈希原理讲解
+简介：golang 任务失败重试与死信队列，异步任务失败自动重试，超过重试次数进入死信队列人工处理。
+ | 原文链接：http://wap.ionpjp.asia/blog/2612382.sHtMl
+
+原标题：静态博客部署 GitHub Pages 教程
+简介：golang 速率限制令牌桶实现，Go 实现令牌桶限流算法，可复用限流器，控制业务调用速率。
+ | 原文链接：http://wap.ionpjp.asia/blog/4150366.sHtMl
+
+原标题：Debug：时间回拨，定时任务调度逻辑错乱
+简介：TLS 版本兼容 HTTPS 握手失败，兼容老旧 TLS 协议版本，修复部分客户端 HTTPS 握手失败无法访问。
+ | 原文链接：http://wap.ionpjp.asia/blog/9261404.sHtMl
+
+原标题：nodejs 流处理大文件不占内存
+简介：接口幂等性防重复请求实现，实现接口幂等逻辑，避免重复提交请求产生多条脏数据，保障业务数据安全。
+ | 原文链接：http://wap.ionpjp.asia/blog/5271365.sHtMl
+
+原标题：调优方案：静态资源缓存头Cache‑Control优化
+简介：golang os 进程 pid 获取父进程 pid，os.Getpid 获取进程 id，获取父进程 pid，进程间识别。
+ | 原文链接：http://wap.ionpjp.asia/blog/9817671.sHtMl
+
+原标题：快速上手简易网关转发逻辑模拟
+简介：前端组件库按需加载性能优化，配置组件库按需引入，避免引入全部组件，减少打包产物体积。
+ | 原文链接：http://wap.ionpjp.asia/blog/7696414.sHtMl
+
+原标题：安全复盘：定时任务权限过大风险管控
+简介：golang 分表跨表 join 查询处理方案，分表后跨分片关联查询解决方案，业务层聚合代替数据库 join。
+ | 原文链接：http://wap.ionpjp.asia/blog/9813191.sHtMl
+
+原标题：golang etcd 租约 lease 过期机制
+简介：前端水印防信息泄露实现，实现网页水印功能，页面叠加用户信息水印，防止页面截图信息外泄。
+ | 原文链接：http://wap.ionpjp.asia/blog/6692904.sHtMl
+
+原标题：Docker 容器入门镜像实操教程
+简介：golang k8s secret 敏感配置加载，加载 k8s secret 存储密钥密码，敏感信息不存放配置文件。
+ | 原文链接：http://wap.ionpjp.asia/blog/7846118.sHtMl
+
+原标题：golang goroutine 池任务调度
+简介：CDN 缓存刷新获取最新静态资源，调用 CDN 刷新接口，清除节点旧缓存，用户访问到更新后的静态文件。
+ | 原文链接：http://wap.ionpjp.asia/blog/6700681.sHtMl
+
+原标题：GET POST 接口请求参数处理
+简介：golang goreleaser 自动版本发布打包，goreleaser 自动化打包发布，生成多平台二进制归档文件。
+ | 原文链接：http://wap.ionpjp.asia/blog/2137347.sHtMl
+
+原标题：安全实践：敏感信息加密存储传输完整方案
+简介：golang 自定义 pprof 扩展业务指标，扩展 pprof，输出业务自定义指标，结合性能数据分析业务状态。
+ | 原文链接：http://wap.ionpjp.asia/blog/3575581.sHtMl
+
+原标题：方案设计：接口版本管理架构向前兼容策略
+简介：WSL 搭建 Windows Linux 开发环境，配置 WSL 环境，在 Windows 系统使用 Linux 工具链，适配 Linux 开发项目。
+ | 原文链接：http://wap.ionpjp.asia/blog/7633036.sHtMl
+
+原标题：golang 系统设计定时任务失败重试告警实现
+简介：golang grpc protobuf 开发实操，Go gRPC 开发，编写 Protobuf 定义，服务端客户端完整示例。
+ | 原文链接：http://wap.ionpjp.asia/blog/9812128.sHtMl
+
+原标题：DevOps：WSL2生产环境使用风险提示
+简介：golang 跨平台系统差异处理方案，处理 windows linux mac 路径、信号、文件权限差异，代码跨平台兼容。
+ | 原文链接：http://wap.ionpjp.asia/blog/6597347.sHtMl
+
+原标题：安全笔记：请求头伪造IP漏洞防护
+简介：﻿从零搭建本地开发环境完整教程，手把手完成环境配置，梳理踩坑点，帮助开发者快速搭建可用的本地开发环境，降低上手成本。
+ | 原文链接：http://wap.ionpjp.asia/blog/9603804.sHtMl
+
+原标题：Architecture：事件溯源架构模式适用业务场景
+简介：本地数据库开发环境搭建指南，讲解数据库安装配置、账号权限设置、连接测试，快速搭建用于开发调试的数据库实例。
+ | 原文链接：http://wap.ionpjp.asia/blog/6384626.sHtMl
+
+原标题：golang 系统设计技术文档编写最佳实践
+简介：golang wasm 性能优化与内存管理，wasm 内存分配释放，减少内存拷贝，优化浏览器端性能。
+ | 原文链接：http://wap.ionpjp.asia/blog/1914027.sHtMl
+
+原标题：架构笔记：数据脱敏架构接入层与存储层方案
+简介：golang 分布式事务 seata go 客户端，seata‑go 实现分布式事务，保证跨库业务数据最终一致性。
+ | 原文链接：http://wap.ionpjp.asia/blog/2946849.sHtMl
+
+原标题：golang 系统设计缓存过期时间设置原则梳理
+简介：golang go json 序列化自定义字段，json 标签控制字段名称、忽略字段、omitempty 空值忽略。
+ | 原文链接：http://wap.ionpjp.asia/blog/4148949.sHtMl
+
+原标题：快速上手简单性能监控指标查看
+简介：golang go http 静态文件禁止目录遍历，http.FileServer 防止../ 路径穿越，了解底层安全实现。
+ | 原文链接：http://wap.ionpjp.asia/blog/9467680.sHtMl
+
+原标题：golang mongodb 事务多文档使用
+简介：golang go 领域驱动 DDD 项目分层，go 项目 DDD 分层架构，领域层应用层基础设施层划分业务代码。
+ | 原文链接：http://wap.ionpjp.asia/blog/9033226.sHtMl
+
+原标题：避坑：ORM框架隐式查询产生大量慢SQL
+简介：nodejs 项目 pm2 部署运维指南，使用 PM2 管理 Node 服务，进程守护、日志、重启，线上部署运维实操。
+ | 原文链接：http://wap.ionpjp.asia/blog/7660112.sHtMl
+
+原标题：接口限流逻辑简单模拟实现
+简介：CDN 缓存刷新获取最新静态资源，调用 CDN 刷新接口，清除节点旧缓存，用户访问到更新后的静态文件。
+ | 原文链接：http://wap.ionpjp.asia/blog/8214356.sHtMl
+
+原标题：性能复盘：锁等待严重业务逻辑优化记录
+简介：golang http MaxHeaderBytes 限制请求头，设置 http 最大请求头大小，防止超大 header 攻击。
+ | 原文链接：http://wap.ionpjp.asia/blog/8233669.sHtMl
+
+
+二、踩坑排错｜Troubleshooting
+原标题：golang docker 部署 mysql 注意事项
+简介：golang http body 必须关闭的重要性，无论成功失败必须关闭 request.Body，否则连接无法复用泄漏。
+ | 原文链接：http://wap.ionpjp.asia/blog/9364356.sHtMl
+
+原标题：API 接口调试与异常处理实战
+简介：express 中间件开发业务实践，开发 Express 自定义中间件，拦截请求，实现鉴权、日志记录等通用逻辑。
+ | 原文链接：http://wap.ionpjp.asia/blog/6590813.sHtMl
+
+原标题：golang 时间时区处理避坑指南
+简介：golang 命令行彩色输出终端，终端彩色文字输出，进度条交互，优化命令行工具用户体验。
+ | 原文链接：http://wap.ionpjp.asia/blog/3256246.sHtMl
+
+原标题：排错：打包后资源路径，开发生产行为不一致
+简介：golang elasticsearch 客户端 golang 实操，es 客户端文档增删改查，条件搜索聚合统计对接搜索引擎。
+ | 原文链接：http://wap.ionpjp.asia/blog/5578469.sHtMl
+
+原标题：性能笔记：RPC超时参数优化防止级联阻塞
+简介：布隆过滤器误判问题修正，调整布隆过滤器参数，降低误判概率，保证业务去重逻辑准确。
+ | 原文链接：http://wap.ionpjp.asia/blog/3266469.sHtMl
+
+原标题：golang 系统设计 api 网关核心能力梳理
+简介：golang go 初始化顺序包变量 init 函数，包级变量初始化，init 执行顺序，理解包加载执行流程。
+ | 原文链接：http://wap.ionpjp.asia/blog/4478458.sHtMl
+
+原标题：golang 系统设计 changelog 变更日志维护
+简介：golang tcp 四次挥手 go 程序行为，理解 tcp 四次挥手，处理连接关闭、重置、RST 包异常场景。
+ | 原文链接：http://wap.ionpjp.asia/blog/2148468.sHtMl
+
+原标题：golang 文件上传下载接口开发
+简介：golang 系统资源限制读取 cpu 内存，读取系统容器 cpu 内存限制，程序适配容器资源配额做业务调优。
+ | 原文链接：http://wap.ionpjp.asia/blog/5481792.sHtMl
+
+原标题：Hands‑on：简易网关路由转发组件开发
+简介：golang nacos go 客户端配置服务发现，nacos‑go 对接 nacos，配置管理、微服务注册发现。
+ | 原文链接：http://wap.ionpjp.asia/blog/3257358.sHtMl
+
+原标题：Git commit 钩子提交规范校验
+简介：Docker 多阶段构建镜像瘦身，使用 Docker 多阶段构建，剔除编译阶段依赖，产出体积更小运行镜像。
+ | 原文链接：http://wap.ionpjp.asia/blog/9132429.sHtMl
+
+原标题：方案设计：多租户系统架构三种实现模式对比
+简介：golang 分库分表简单路由实现，简易分表路由逻辑实现，根据分片 key 计算分片位置，数据路由写入。
+ | 原文链接：http://wap.ionpjp.asia/blog/6578602.sHtMl
+
+原标题：从零搭建简单CLI命令行工具
+简介：API 接口调试与异常处理实战，覆盖接口请求、参数组装、错误捕获，提供调试思路，高效定位接口返回异常问题。
+ | 原文链接：http://wap.ionpjp.asia/blog/2255458.sHtMl
+
+原标题：golang 系统设计重试退避策略业务落地
+简介：golang kafka 消费者组重平衡避坑，规避消费者组频繁 rebalance，减少消费抖动，保障消息消费稳定性。
+ | 原文链接：http://wap.ionpjp.asia/blog/0713815.sHtMl
+
+原标题：实践：消息队列死信处理业务落地实践
+简介：golang 半关闭 tcp 连接 shutdown，tcp 连接 shutdown 半关闭，单向关闭读或者写，理解 tcp 关闭流程。
+ | 原文链接：http://wap.ionpjp.asia/blog/7193926.sHtMl
+
+原标题：HelloCI：理解持续集成基础工作流程
+简介：golang influxdb 时序数据库读写操作，influxdb 存储时序指标，业务指标监控数据存取。
+ | 原文链接：http://wap.ionpjp.asia/blog/5268283.sHtMl
+
+原标题：零基础理解进程、线程基础概念区别
+简介：Mock 接口服务快速搭建实操，搭建模拟后端接口，自定义返回数据、延迟响应，前端开发阶段无需依赖真实后端服务。
+ | 原文链接：http://wap.ionpjp.asia/blog/5039369.sHtMl
+
+原标题：分布式锁失效问题排查修复
+简介：依赖安装失败全方位排错，从网络、镜像源、权限、版本多角度，定位依赖安装失败，给出对应修复手段。
+ | 原文链接：http://wap.ionpjp.asia/blog/8605859.sHtMl
+
+原标题：快速入门gRPC基础概念与简单示例
+简介：golang go 代码覆盖率线上统计，单元测试覆盖率统计，找出未测试代码分支，提升测试质量。
+ | 原文链接：http://wap.ionpjp.asia/blog/5230159.sHtMl
+
+原标题：项目构建脚本编译打包解析
+简介：消息队列消费堆积扩容处理，消息大量堆积时，扩容消费实例，优化消费逻辑，加快消息处理速度。
+ | 原文链接：http://wap.ionpjp.asia/blog/1031249.sHtMl
+
+原标题：优化实践：Redis管道、批量命令减少网络往返
+简介：线上接口超时故障排查思路，从网络、数据库、代码逻辑逐层排查接口超时，定位慢请求根因。
+ | 原文链接：http://wap.ionpjp.asia/blog/5585789.sHtMl
+
+原标题：golang mongodb 文档结构设计原则
+简介：golang 设置 net.Conn 读写超时，每次读写设置超时，防止连接永久阻塞挂起不返回。
+ | 原文链接：http://wap.ionpjp.asia/blog/7696749.sHtMl
+
+原标题：golang 系统设计降级策略开关配置方案
+简介：golang docker 多阶段构建 go 镜像，Go 项目 Docker 多阶段构建，编译与运行阶段分离，大幅度缩减最终镜像体积，提升镜像分发效率。
+ | 原文链接：http://wap.ionpjp.asia/blog/0927802.sHtMl
+
+原标题：部署实践：HTTPS证书自动续期配置实践
+简介：GC 垃圾回收优化降低 CPU 占用，调整 GC 参数，优化对象创建销毁，降低垃圾回收带来 CPU 开销。
+ | 原文链接：http://wap.ionpjp.asia/blog/1841890.sHtMl
+
+原标题：golang 系统设计配置敏感信息加密存储
+简介：前端静态缓存更新生效处理，修改静态资源版本标识，处理浏览器强缓存，让更新资源生效。
+ | 原文链接：http://wap.ionpjp.asia/blog/2145279.sHtMl
+
+原标题：调优方案：前端静态资源打包性能体积优化
+简介：golang 速率限制令牌桶实现，Go 实现令牌桶限流算法，可复用限流器，控制业务调用速率。
+ | 原文链接：http://wap.ionpjp.asia/blog/6395747.sHtMl
+
+原标题：golang 系统设计数据脱敏架构实现
+简介：磁盘 inode 耗尽文件创建失败，排查磁盘 inode 占用，清理大量小文件，恢复文件创建能力。
+ | 原文链接：http://wap.ionpjp.asia/blog/6302805.sHtMl
+
+原标题：rebase 操作防止代码丢失
+简介：golang go 模块迁移从 GOPATH 到 GoMod，老项目从 GOPATH 迁移 go mod，解决依赖管理混乱问题。
+ | 原文链接：http://wap.ionpjp.asia/blog/1713926.sHtMl
+
+原标题：灰度发布策略服务平滑升级
+简介：golang 探测文件真实内容类型，读取文件头部字节判断真实文件格式，规避后缀伪造。
+ | 原文链接：http://wap.ionpjp.asia/blog/9702837.sHtMl
+
+原标题：实战：搭建日志收集分析简易完整演示环境
+简介：golang go 值传递引用传递理解，go 全部为值传递，指针本质拷贝指针值，理清参数传递行为。
+ | 原文链接：http://wap.ionpjp.asia/blog/8701906.sHtMl
+
+原标题：golang 系统设计缓存更新策略 cache aside 讲解
+简介：golang go 项目工程目录布局标准，不同规模 go 项目目录结构，小型项目中型项目大型微服务项目布局。
+ | 原文链接：http://wap.ionpjp.asia/blog/9918963.sHtMl
+
+原标题：golang 系统设计链路追踪架构简单讲解
+简介：golang gorm 预加载关联查询优化，GORM 预加载关联数据，避免 N+1 查询问题，提升数据库查询性能。
+ | 原文链接：http://wap.ionpjp.asia/blog/1030194.sHtMl
+
+原标题：golang 系统设计缓存预热缓存降级实现
+简介：golang base64 大文件流式编解码，大文件流式 base64 转换，不用一次性加载全部文件进入内存。
+ | 原文链接：http://wap.ionpjp.asia/blog/0466660.sHtMl
+
+原标题：新手向：Mac/Windows开发环境差异踩坑
+简介：golang html 模板渲染简单示例，Go HTML 模板渲染，服务端渲染页面，填充数据输出 HTML 页面。
+ | 原文链接：http://wap.ionpjp.asia/blog/6135802.sHtMl
+
+原标题：CPU 亲和性配置负载均衡调度
+简介：git stash 代码暂存切换分支，使用 stash 暂存未提交代码，切换其他分支处理紧急任务，再恢复原有工作进度。
+ | 原文链接：http://wap.ionpjp.asia/blog/1816918.sHtMl
+
+原标题：golang 系统设计配置多环境隔离方案落地
+简介：golang tidb 数据库 go 项目适配，go 程序适配 tidb，兼容 mysql 协议，分布式数据库业务开发。
+ | 原文链接：http://wap.ionpjp.asia/blog/0791365.sHtMl
+
+原标题：golang mongodb 事务多文档使用
+简介：Git commit 钩子提交规范校验，配置 Git 提交钩子，提交代码自动校验提交信息格式，规范提交记录。
+ | 原文链接：http://wap.ionpjp.asia/blog/3723692.sHtMl
+
+原标题：Docker Compose 一键搭建本地栈
+简介：webpack chunk 分包策略详解，讲解 webpack chunk 分包策略，拆分第三方包与业务代码，优化缓存复用。
+ | 原文链接：http://wap.ionpjp.asia/blog/0483509.sHtMl
+
+原标题：Practice：实现接口幂等性多种方案对比实践
+简介：OpenAPI 自动接口文档生成，集成 OpenAPI 工具，自动扫描代码生成接口文档，减少文档维护成本。
+ | 原文链接：http://wap.ionpjp.asia/blog/6053692.sHtMl
+
+原标题：Troubleshoot：CPU调度频繁上下文切换性能下降
+简介：golang raw socket 底层网络报文收发，raw socket 收发原始网络报文，做网络抓包数据包处理。
+ | 原文链接：http://wap.ionpjp.asia/blog/6168123.sHtMl
+
+原标题：实战：容器内执行调试排错完整实操流程
+简介：vite 插件开发自定义构建逻辑，开发自定义 vite 插件，介入构建生命周期，实现项目个性化构建逻辑。
+ | 原文链接：http://wap.ionpjp.asia/blog/8223535.sHtMl
+
+三、实战开发｜Practice
+原标题：Performance：避免循环查询N+1问题完整优化
+简介：手写简易 MQ 理解消息存储消费，手写极简消息队列 Demo，理解消息存储、投递、消费完整流程。
+ | 原文链接：http://wap.ionpjp.asia/blog/7493749.sHtMl
+
+原标题：实战：数据库索引设计，复合索引最佳实践
+简介：golang 链路追踪简易实现方案，简易链路追踪实现，传递 traceId，记录调用链路，方便排查慢调用。
+ | 原文链接：http://wap.ionpjp.asia/blog/5035582.sHtMl
+
+原标题：golang 系统设计事务消息 rocketmq 简单原理
+简介：Nginx 静态代理负载均衡全套配置，一套 Nginx 配置示例，覆盖静态资源、反向代理、负载均衡场景。
+ | 原文链接：http://wap.ionpjp.asia/blog/4818091.sHtMl
+
+原标题：Issue：本地数据库与线上数据库排序规则差异
+简介：文件读写与异常捕获代码示例，演示文件读取写入操作，增加异常捕获逻辑，规避文件不存在、权限不足导致崩溃。
+ | 原文链接：http://wap.ionpjp.asia/blog/9123588.sHtMl
+
+原标题：项目实践：消息队列消息堆积模拟处理实践
+简介：golang 时间轮算法实现延时调度，手写简易时间轮，高并发大量延时任务，降低轮询 CPU 消耗。
+ | 原文链接：http://wap.ionpjp.asia/blog/8818221.sHtMl
+
+原标题：提交第一个开源 PR 完整流程
+简介：golang goroutine 协程基础实操，Goroutine 基础实操案例，启动协程执行任务，理解轻量级协程特性。
+ | 原文链接：http://wap.ionpjp.asia/blog/5014225.sHtMl
+
+原标题：css 动画性能优化 GPU 加速
+简介：golang kafka 消费者位移管理，理解 kafka offset，手动提交位移，保证消息消费至少一次语义。
+ | 原文链接：http://wap.ionpjp.asia/blog/6234554.sHtMl
+
+原标题：开发复盘：大事务拆分优化业务性能实践
+简介：golang errors.Is errors.As 错误判断，判断是否为指定错误类型，提取自定义错误信息，错误处理进阶。
+ | 原文链接：http://wap.ionpjp.asia/blog/6343142.sHtMl
+
+原标题：golang 系统设计数据库连接池调优实践
+简介：golang redis zset 实现延时任务队列，zset 存储任务到期时间，轮询到期任务执行，简易延迟队列。
+ | 原文链接：http://wap.ionpjp.asia/blog/1567555.sHtMl
+
+原标题：golang 系统设计配置多环境隔离方案落地
+简介：golang net/http 超时全套配置，完整配置 Go HTTP 服务读写空闲超时，全方位防止请求挂住。
+ | 原文链接：http://wap.ionpjp.asia/blog/8234101.sHtMl
+
+原标题：golang 系统设计索引设计通用方法论汇总
+简介：golang wasm webassembly go 编译，go 编译为 wasm，浏览器执行 go 代码，拓展 go 运行场景。
+ | 原文链接：http://wap.ionpjp.asia/blog/1568588.sHtMl
+
+原标题：golang es 聚合统计查询实现
+简介：golang 项目 go mod 依赖管理，Go Mod 管理项目依赖，下载、升级、清理依赖，解决依赖版本管理。
+ | 原文链接：http://wap.ionpjp.asia/blog/3709119.sHtMl
+
+原标题：配置与镜像分离防止信息泄露
+简介：golang kafka 消费者位移管理，理解 kafka offset，手动提交位移，保证消息消费至少一次语义。
+ | 原文链接：http://wap.ionpjp.asia/blog/9342365.sHtMl
+
+原标题：golang 系统设计配置敏感信息加密存储方案
+简介：浏览器本地存储安全使用技巧，讲解 localStorage、sessionStorage 使用边界，规避 XSS 泄露存储数据。
+ | 原文链接：http://wap.ionpjp.asia/blog/0456698.sHtMl
+
+原标题：架构复盘：限流系统架构防止恶意流量冲击
+简介：golang goroutine 协程基础实操，Goroutine 基础实操案例，启动协程执行任务，理解轻量级协程特性。
+ | 原文链接：http://wap.ionpjp.asia/blog/0112266.sHtMl
+
+原标题：golang 项目 go mod 依赖管理
+简介：golang 表单文件大小限制配置，限制表单上传文件最大体积，拦截超大文件上传请求，保护服务。
+ | 原文链接：http://wap.ionpjp.asia/blog/2601143.sHtMl
+
+原标题：避坑：批量操作未分批次，一次性内存打爆
+简介：golang grpc protobuf 开发实操，Go gRPC 开发，编写 Protobuf 定义，服务端客户端完整示例。
+ | 原文链接：http://wap.ionpjp.asia/blog/4599122.sHtMl
+
+原标题：实践：Git工作流主干开发团队协作实践
+简介：golang 日志脱敏敏感字段过滤，日志打印自动脱敏敏感字段，避免日志输出手机号身份证泄露隐私。
+ | 原文链接：http://wap.ionpjp.asia/blog/0134466.sHtMl
+
+原标题：golang 日志与链路 ID 关联打印
+简介：golang interface {} 类型断言类型转换，类型断言 ok 模式，避免断言失败触发 panic。
+ | 原文链接：http://wap.ionpjp.asia/blog/7921554.sHtMl
+
+原标题：Architecture：API网关核心能力与组件拆分
+简介：golang gitlab ci go 项目流水线编写，gitlab ci 流水线执行单元测试、静态检查、构建推送镜像。
+ | 原文链接：http://wap.ionpjp.asia/blog/7346585.sHtMl
+
+原标题：golang 系统设计 saga 事务补偿模式实现思路
+简介：golang GC 调优 GOGC 参数调整，调整 GOGC 阈值，控制 GC 触发时机，权衡内存占用与 CPU 开销。
+ | 原文链接：http://wap.ionpjp.asia/blog/0245577.sHtMl
+
+原标题：CPU 亲和性配置负载均衡调度
+简介：golang sort 切片排序自定义 less，sort.Slice 切片快速排序，自定义 less 函数实现业务排序。
+ | 原文链接：http://wap.ionpjp.asia/blog/8021448.sHtMl
+
+原标题：调优方案：前端静态资源打包性能体积优化
+简介：golang tcp keepalive 参数程序配置，go 程序设置 tcp keepalive，操作系统 tcp 保活参数，清理僵死连接。
+ | 原文链接：http://wap.ionpjp.asia/blog/7942333.sHtMl
+
+原标题：golang 系统设计 protobuf oneof 类型业务场景
+简介：特殊输入字符过滤解析防护，过滤用户输入特殊字符，防止解析报错，规避恶意字符带来业务异常。
+ | 原文链接：http://wap.ionpjp.asia/blog/4475587.sHtMl
+
+原标题：gRPC 服务端客户端入门示例
+简介：服务器时钟同步任务错乱修复，配置服务器 NTP 时间同步，保证集群所有机器时间保持一致。
+ | 原文链接：http://wap.ionpjp.asia/blog/3780043.sHtMl
+
+原标题：Debug日志：生产环境偶发空指针异常排查
+简介：前端水印防信息泄露实现，实现网页水印功能，页面叠加用户信息水印，防止页面截图信息外泄。
+ | 原文链接：http://wap.ionpjp.asia/blog/5901113.sHtMl
+
+原标题：golang 系统设计分布式锁不同场景选型对比
+简介：golang url 解析路径参数提取，url.Parse 解析 url，获取协议主机路径查询参数。
+ | 原文链接：http://wap.ionpjp.asia/blog/2670081.sHtMl
+
+原标题：优化实践：接口返回字段裁剪减少报文大小
+简介：服务健康检查告警监控体系，搭建健康检查加告警体系，服务异常及时推送告警通知运维人员。
+ | 原文链接：http://wap.ionpjp.asia/blog/4899022.sHtMl
+
+原标题：Practice：模拟缓存雪崩缓存击穿验证防护策略
+简介：golang sync.Cond 条件变量使用，Cond 条件变量协程等待唤醒，复杂并发同步场景。
+ | 原文链接：http://wap.ionpjp.asia/blog/6998991.sHtMl
+
+原标题：golang redis 连接池参数最佳值
+简介：golang go list 双向链表使用，container/list 双向链表，频繁增删节点业务场景使用。
+ | 原文链接：http://wap.ionpjp.asia/blog/1568786.sHtMl
+
+原标题：网络读取超时设置连接挂起防护
+简介：golang kitex 中间件与元数据传递，kitex 自定义中间件，透传 traceId 鉴权元数据，统一处理请求。
+ | 原文链接：http://wap.ionpjp.asia/blog/6709211.sHtMl
+
+原标题：golang 消息死信处理业务逻辑
+简介：git stash 代码暂存切换分支，使用 stash 暂存未提交代码，切换其他分支处理紧急任务，再恢复原有工作进度。
+ | 原文链接：http://wap.ionpjp.asia/blog/2654644.sHtMl
+
+原标题：golang 系统设计限流熔断降级组合使用
+简介：热更新开发环境配置教程，配置代码热重载，修改代码无需重启服务立即生效，大幅提升本地开发调试效率。
+ | 原文链接：http://wap.ionpjp.asia/blog/0263446.sHtMl
+
+原标题：golang 系统设计缓存一致性方案对比
+简介：golang 分布式事务 seata go 客户端，seata‑go 实现分布式事务，保证跨库业务数据最终一致性。
+ | 原文链接：http://wap.ionpjp.asia/blog/6025444.sHtMl
+
+原标题：服务器时钟同步任务错乱修复
+简介：程序信号中断退出处理逻辑，捕获系统中断信号，执行资源释放、关闭连接，实现程序优雅退出。
+ | 原文链接：http://wap.ionpjp.asia/blog/5767790.sHtMl
+
+原标题：新手向：开源项目依赖安装失败排查
+简介：monorepo 项目多包管理最佳实践，monorepo 仓库管理多子包，统一版本管理，处理包之间互相依赖。
+ | 原文链接：http://wap.ionpjp.asia/blog/0354665.sHtMl
+
+原标题：GitHub 项目提交推送完整流程讲解
+简介：golang loki 日志收集 go 服务集成，日志输出适配 loki，标签携带 traceId，日志集中检索排查问题。
+ | 原文链接：http://wap.ionpjp.asia/blog/9443556.sHtMl
+
+原标题：编译打包产物依赖分析解读
+简介：golang staticcheck 静态代码分析，staticcheck 深度静态检查，发现代码错误、性能问题、风格问题。
+ | 原文链接：http://wap.ionpjp.asia/blog/1334466.sHtMl
+
+原标题：架构复盘：限流系统架构防止恶意流量冲击
+简介：golang wasm 浏览器 js 交互，go wasm 与 js 互相调用，浏览器端 go 程序操作 dom 调用 js 函数。
+ | 原文链接：http://wap.ionpjp.asia/blog/7821547.sHtMl
+
+原标题：调优方案：JVM内存参数优化，降低GC频率
+简介：golang json 自定义 MarshalJSON UnmarshalJSON，自定义 json 序列化反序列化逻辑，处理特殊格式字段。
+ | 原文链接：http://wap.ionpjp.asia/blog/5997000.sHtMl
+
+四、架构设计｜Architecture
+原标题：项目实践：接口压测，逐步加压观察系统表现
+简介：Nginx 请求头大小上限调整，修改 Nginx 配置，调大请求头允许最大大小，避免大 Header 请求被拒绝。
+ | 原文链接：http://wap.ionpjp.asia/blog/6012236.sHtMl
+
+原标题：方案对比：定时任务框架选型与架构对比
+简介：golang jwt 令牌刷新逻辑实现，实现 JWT 双令牌机制，access 短期有效 refresh 刷新令牌，实现无感续期登录。
+ | 原文链接：http://wap.ionpjp.asia/blog/9346578.sHtMl
+
+原标题：golang 系统设计 git 工作流本地开发提交流程
+简介：golang 单元测试 table‑driven，表格驱动单元测试写法，批量输入多组测试用例，简化单元测试代码。
+ | 原文链接：http://wap.ionpjp.asia/blog/6023336.sHtMl
+
+原标题：golang 系统设计开源项目 issue pr 模板编写
+简介：golang cpu pprof 性能分析实操，使用 pprof 采集 CPU 性能数据，定位 CPU 高占用函数，做性能优化。
+ | 原文链接：http://wap.ionpjp.asia/blog/3787999.sHtMl
+
+原标题：新手向：开源项目依赖安装失败排查
+简介：golang 结构体零值可用性原则，go 结构体尽量做到零值可用，不用初始化直接使用提升易用性。
+ | 原文链接：http://wap.ionpjp.asia/blog/9332157.sHtMl
+
+原标题：Practice：从零实现轻量后端接口服务完整实践
+简介：golang k8s 客户端 client‑go 简单示例，client‑go 操作 k8s 资源，增删改查 pod deployment 等资源对象。
+ | 原文链接：http://wap.ionpjp.asia/blog/4900223.sHtMl
+
+原标题：golang 系统设计缓存预热缓存降级实现
+简介：golang go 应用内存使用优化手段，减少对象分配，复用对象，降低 GC 压力，减少 GC 停顿时间。
+ | 原文链接：http://wap.ionpjp.asia/blog/6001912.sHtMl
+
+原标题：Architecture：配置中心架构，动态配置设计思路
+简介：nodejs 日志轮转生产环境配置，配置 Node 日志轮转切割，防止日志文件无限变大，适配生产环境。
+ | 原文链接：http://wap.ionpjp.asia/blog/8233201.sHtMl
+
+原标题：数据库 utf8mb4 支持 emoji 存储
+简介：golang go 程序运行时动态修改配置，运行时热加载配置结构体，原子更新保证并发读取安全。
+ | 原文链接：http://wap.ionpjp.asia/blog/3890013.sHtMl
+
+原标题：设计思考：系统限流熔断降级完整防护体系
+简介：golang gorm 子查询嵌套查询写法，Gorm 实现子查询、嵌套查询，复杂条件查询简化代码编写。
+ | 原文链接：http://wap.ionpjp.asia/blog/1567792.sHtMl
+
+原标题：实战：数据库索引设计，复合索引最佳实践
+简介：Git LFS 大文件推送失败解决，配置 Git LFS，处理仓库大文件，解决大文件推送报错推送失败。
+ | 原文链接：http://wap.ionpjp.asia/blog/0455543.sHtMl
+
+原标题：批量操作分批处理防止 OOM
+简介：vite 项目配置与构建提速技巧，讲解 vite 配置优化手段，提升开发热更新速度与生产构建打包效率。
+ | 原文链接：http://wap.ionpjp.asia/blog/4157362.sHtMl
+
+原标题：开发复盘：海量日志轮转清理脚本实践
+简介：golang select 随机分支执行特性，多个 channel 就绪 select 随机选择，理解 select 行为特性。
+ | 原文链接：http://wap.ionpjp.asia/blog/3026603.sHtMl
+
+原标题：架构复盘：数据库索引架构设计原则与边界
+简介：golang redis hash 结构业务实战，使用 Redis Hash 存储对象数据，适合对象字段频繁更新业务场景。
+ | 原文链接：http://wap.ionpjp.asia/blog/6046836.sHtMl
+
+原标题：golang 系统设计告警渠道钉钉邮件企业微信集成
+简介：golang strings.Builder 字符串高效拼接，strings.Builder 做字符串拼接，比 += 性能更高，减少内存拷贝。
+ | 原文链接：http://wap.ionpjp.asia/blog/6379037.sHtMl
+
+原标题：开发记录：服务优雅关闭释放资源完整实现
+简介：golang elasticsearch 客户端 golang 实操，es 客户端文档增删改查，条件搜索聚合统计对接搜索引擎。
+ | 原文链接：http://wap.ionpjp.asia/blog/8292516.sHtMl
+
+原标题：Architecture：静态资源分发CDN整体架构思路
+简介：golang 系统信号信号量处理，Go 处理系统各类信号，SIGINT、SIGTERM，实现程序可控退出。
+ | 原文链接：http://wap.ionpjp.asia/blog/1746259.sHtMl
+
+原标题：新手指南：虚拟机WSL开发环境入门配置
+简介：golang 协程泄露问题排查方法，识别 Go 协程泄露现象，分析泄露场景，给出排查定位协程泄露手段。
+ | 原文链接：http://wap.ionpjp.asia/blog/8606849.sHtMl
+
+?
