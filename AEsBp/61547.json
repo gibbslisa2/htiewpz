@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：Hands‑on：简易短消息模板渲染组件实践
+简介：golang 限流器熔断降级组合使用，限流熔断降级组合架构，流量防护完整方案，保障服务稳定性。
+ | 原文链接：m.dirjdz.asia/Article/details/9379148.sHtML
+
+原标题：防火墙 IP 白名单回调接口放行
+简介：TLS 版本兼容 HTTPS 握手失败，兼容老旧 TLS 协议版本，修复部分客户端 HTTPS 握手失败无法访问。
+ | 原文链接：m.dirjdz.asia/Article/details/4789136.sHtML
+
+原标题：部署复盘：蓝绿发布实现零停机业务更新
+简介：网关集成鉴权限流日志一体化，在网关层整合鉴权、限流、请求日志，统一对入口请求做管控处理。
+ | 原文链接：m.dirjdz.asia/Article/details/6847880.sHtML
+
+原标题：golang http 请求重试封装工具
+简介：Docker 容器网络不通排查，排查容器网络模式、端口映射、防火墙，解决容器之间、容器外部网络不通。
+ | 原文链接：m.dirjdz.asia/Article/details/9143656.sHtML
+
+原标题：并发数据覆盖加锁安全处理
+简介：golang context 包标准用法规范，context 传递请求元数据、超时、取消，函数第一个参数传入 ctx。
+ | 原文链接：m.dirjdz.asia/Article/details/9242771.sHtML
+
+原标题：踩坑：数据库连接未关闭，连接池泄露
+简介：gRPC 服务端客户端入门示例，搭建 gRPC 服务端与调用客户端，学习 protobuf 定义，掌握 RPC 基础开发流程。
+ | 原文链接：m.dirjdz.asia/Article/details/3608126.sHtML
+
+原标题：性能笔记：连接池参数调优数据库RPC连接池
+简介：golang math 包常用数学函数，绝对值取整平方根三角函数，业务数学计算工具。
+ | 原文链接：m.dirjdz.asia/Article/details/5924804.sHtML
+
+原标题：golang redis bitmap 位图统计实现
+简介：golang 限制 multipart 内存大小，设置 MaxMemory，大文件写入磁盘临时文件防止内存暴涨。
+ | 原文链接：m.dirjdz.asia/Article/details/3701058.sHtML
+
+原标题：golang 系统设计压测指标 qps rt 错误率讲解
+简介：文件句柄耗尽资源泄露处理，定位文件句柄泄露，修复文件忘记关闭问题，解决句柄耗尽服务报错。
+ | 原文链接：m.dirjdz.asia/Article/details/6046915.sHtML
+
+原标题：golang 系统设计分库分表本地测试调试技巧
+简介：golang accept 错误循环崩溃处理，accept 返回系统错误，处理临时错误，避免死循环占满 CPU。
+ | 原文链接：m.dirjdz.asia/Article/details/6931450.sHtML
+
+原标题：golang 系统设计第三方接口调用封装思路
+简介：golang loki 日志收集 go 服务集成，日志输出适配 loki，标签携带 traceId，日志集中检索排查问题。
+ | 原文链接：m.dirjdz.asia/Article/details/2413350.sHtML
+
+原标题：golang docker 多阶段构建 go 镜像
+简介：日志切割配置防止日志丢失，配置日志切割轮转策略，日志按大小时间切割，防止日志文件丢失。
+ | 原文链接：m.dirjdz.asia/Article/details/0480493.sHtML
+
+原标题：开发记录：日志脱敏防止敏感信息输出实践
+简介：golang redis 客户端业务使用，Go Redis 客户端对接，实现缓存、计数器，适配各类 Redis 业务场景。
+ | 原文链接：m.dirjdz.asia/Article/details/8279259.sHtML
+
+原标题：golang http 请求重试封装工具
+简介：golang ip 限流黑名单实现方案，基于 IP 做限流与黑名单，拦截恶意 IP 访问，保护接口服务。
+ | 原文链接：m.dirjdz.asia/Article/details/5935793.sHtML
+
+原标题：YAML 配置文件语法快速上手
+简介：golang 漏桶算法实现接口限流，漏桶算法控制请求流出速率，平滑突发流量，削平流量峰值。
+ | 原文链接：m.dirjdz.asia/Article/details/9153781.sHtML
+
+原标题：踩坑：大报文传输，RPC消息超过大小限制
+简介：golang gorm 预加载关联查询优化，GORM 预加载关联数据，避免 N+1 查询问题，提升数据库查询性能。
+ | 原文链接：m.dirjdz.asia/Article/details/1891481.sHtML
+
+原标题：架构笔记：任务调度系统架构设计与可靠性
+简介：前端打包分包加载提速方案，前端打包做代码分包，拆分大 bundle，页面按需加载，提升首屏加载速度。
+ | 原文链接：m.dirjdz.asia/Article/details/7450038.sHtML
+
+原标题：预编译 SQL 防注入实现
+简介：golang 项目 makefile 脚本编写，编写 Makefile 脚本，封装编译、测试、构建命令，简化项目操作。
+ | 原文链接：m.dirjdz.asia/Article/details/2912647.sHtML
+
+原标题：golang 分布式锁 redis 实现
+简介：死信队列处理消息阻塞业务，配置死信队列，处理消费失败消息，避免失败消息阻塞整个队列业务。
+ | 原文链接：m.dirjdz.asia/Article/details/5045970.sHtML
+
+原标题：安全笔记：CSP内容安全策略配置实践
+简介：golang grpc 客户端拦截器封装，grpc 客户端拦截器实现请求统一签名、重试、链路信息透传。
+ | 原文链接：m.dirjdz.asia/Article/details/7024587.sHtML
+
+原标题：内网 DNS 不稳定随机报错排查
+简介：轻量 API 后端接口服务快速开发，快速搭建简易 API 服务，实现基础接口能力，快速支撑小型业务需求。
+ | 原文链接：m.dirjdz.asia/Article/details/3599258.sHtML
+
+原标题：nodejs 中间件模式原理剖析
+简介：golang 定时任务 cron 使用指南，Go 使用 Cron 库实现定时任务，配置 corn 表达式调度业务任务。
+ | 原文链接：m.dirjdz.asia/Article/details/5826091.sHtML
+
+原标题：golang 系统设计单元测试边界条件覆盖思路
+简介：golang 单例模式实现几种方式，Go 单例模式多种实现对比，sync.Once 等方式，实现全局唯一实例。
+ | 原文链接：m.dirjdz.asia/Article/details/2602592.sHtML
+
+原标题：golang docker 镜像构建最佳实践
+简介：golang gin 静态资源访问配置，Gin 配置静态资源目录，直接对外提供静态文件访问服务。
+ | 原文链接：m.dirjdz.asia/Article/details/3608025.sHtML
+
+原标题：分布式任务调度集群原型开发
+简介：Docker 容器时区错误修复方案，修复 Docker 容器内部时区偏差，解决容器内时间不对引发业务逻辑异常。
+ | 原文链接：m.dirjdz.asia/Article/details/4935881.sHtML
+
+原标题：正则表达式优化 CPU 占满问题
+简介：golang ctx 传递规则不要存结构体，context 作为函数参数传递，禁止放入结构体字段存储。
+ | 原文链接：m.dirjdz.asia/Article/details/7934769.sHtML
+
+原标题：线上异常：时间时区问题，定时任务执行偏移
+简介：nodejs 日志轮转生产环境配置，配置 Node 日志轮转切割，防止日志文件无限变大，适配生产环境。
+ | 原文链接：m.dirjdz.asia/Article/details/6279147.sHtML
+
+原标题：灰度发布策略服务平滑升级
+简介：前端国际化多语言方案落地，搭建前端多语言国际化方案，切换语言，页面文本自动切换对应语种。
+ | 原文链接：m.dirjdz.asia/Article/details/9344446.sHtML
+
+原标题：方案设计：分布式锁失效风险架构层面规避
+简介：golang http.Server 配置参数详解，ReadTimeout WriteTimeout IdleTimeout，全方位防护慢请求攻击。
+ | 原文链接：m.dirjdz.asia/Article/details/5607760.sHtML
+
+原标题：复盘总结：技术方案文档模板架构设计文档
+简介：golang feishu 飞书机器人消息发送，调用飞书 webhook 机器人，发送文本卡片消息，实现业务告警通知。
+ | 原文链接：m.dirjdz.asia/Article/details/5890021.sHtML
+
+原标题：容器软链接文件权限修复
+简介：golang 协程泄露问题排查方法，识别 Go 协程泄露现象，分析泄露场景，给出排查定位协程泄露手段。
+ | 原文链接：m.dirjdz.asia/Article/details/7719113.sHtML
+
+原标题：进程线程并发基础概念讲解
+简介：golang redis 事务 multi exec 使用，Redis 事务 multi exec 实现批量命令原子执行，理解 redis 事务隔离特性。
+ | 原文链接：m.dirjdz.asia/Article/details/1809004.sHtML
+
+原标题：DevOps：Docker镜像安全扫描集成CI流程
+简介：golang 配置中心 apollo go 客户端，apollo go sdk 读取配置，配置变更自动热更新无需重启服务。
+ | 原文链接：m.dirjdz.asia/Article/details/1156943.sHtML
+
+原标题：数值 key 浮点匹配异常规避
+简介：预编译 SQL 防注入实现，使用预编译 SQL 方式，杜绝 SQL 注入风险，提升数据库访问层安全能力。
+ | 原文链接：m.dirjdz.asia/Article/details/9167004.sHtML
+
+原标题：全量回归测试提升代码质量
+简介：monorepo 项目多包管理最佳实践，monorepo 仓库管理多子包，统一版本管理，处理包之间互相依赖。
+ | 原文链接：m.dirjdz.asia/Article/details/9235802.sHtML
+
+原标题：golang 系统设计缓存一致性方案对比
+简介：golang 数据库连接池参数调优详解，最大连接空闲连接最大生命周期，结合业务合理配置避免资源浪费。
+ | 原文链接：m.dirjdz.asia/Article/details/5890357.sHtML
+
+原标题：实战：Redis管道批量操作性能优化实践
+简介：前端工程化 webpack 打包优化，针对 webpack 项目做打包调优，分包、压缩、Tree‑Shaking，缩减包体积。
+ | 原文链接：m.dirjdz.asia/Article/details/1370159.sHtML
+
+原标题：安全笔记：GitHubAction密钥安全管理
+简介：nodejs 进程间通信 IPC 实操，演示 Node.js 主进程子进程 IPC 通信，进程之间传递消息数据。
+ | 原文链接：m.dirjdz.asia/Article/details/9244783.sHtML
+
+原标题：Architecture：API设计RESTful最佳实践与反模式
+简介：golang wasm 浏览器 js 交互，go wasm 与 js 互相调用，浏览器端 go 程序操作 dom 调用 js 函数。
+ | 原文链接：m.dirjdz.asia/Article/details/8158094.sHtML
+
+原标题：golang redis 网络超时参数调优
+简介：nodejs 读取大文件 csv 处理方案，Node 流式读取超大 CSV 文件，逐行解析，避免一次性加载全部文件。
+ | 原文链接：m.dirjdz.asia/Article/details/0355895.sHtML
+
+
+二、踩坑排错｜Troubleshooting
+原标题：golang 数据库连接泄露排查
+简介：golang 分布式 ID 雪花算法实现，Go 实现雪花算法，生成分布式全局唯一 ID，适配分库分表主键。
+ | 原文链接：m.dirjdz.asia/Article/details/9379148.sHtML
+
+原标题：Issue：开源项目升级大版本后API不兼容踩坑
+简介：nodejs 信号处理优雅关闭服务，监听系统信号，执行资源清理，实现 Node 服务优雅停机，拒绝粗暴杀死进程。
+ | 原文链接：m.dirjdz.asia/Article/details/5992366.sHtML
+
+原标题：golang 接口返回统一封装工具
+简介：macOS 脚本执行权限开启，给 Shell 脚本添加可执行权限，解决 macOS 下脚本无法运行权限报错。
+ | 原文链接：m.dirjdz.asia/Article/details/7257577.sHtML
+
+原标题：Troubleshooting：Redis大key引发集群卡顿
+简介：Git 子模块更新代码不全修复，正确更新 Git 子模块，拉取子模块完整代码，解决子模块目录为空问题。
+ | 原文链接：m.dirjdz.asia/Article/details/8279259.sHtML
+
+原标题：架构复盘：多级缓存架构，本地缓存+分布式缓存
+简介：golang url 解析路径参数提取，url.Parse 解析 url，获取协议主机路径查询参数。
+ | 原文链接：m.dirjdz.asia/Article/details/3801477.sHtML
+
+原标题：Git 误删提交代码恢复找回
+简介：依赖安装失败全方位排错，从网络、镜像源、权限、版本多角度，定位依赖安装失败，给出对应修复手段。
+ | 原文链接：m.dirjdz.asia/Article/details/7167145.sHtML
+
+原标题：Issue：定时任务并发执行未加锁重复执行业务
+简介：golang channel 作为函数参数方向，声明 channel 入参方向，只读 channel 只写 channel 提升代码约束。
+ | 原文链接：m.dirjdz.asia/Article/details/3502344.sHtML
+
+原标题：golang 系统设计压测数据构造方法实现
+简介：golang time 时间格式化参考时间牢记，2006‑01‑02T15:04:05Z07:00，掌握 go 时间格式化关键点。
+ | 原文链接：m.dirjdz.asia/Article/details/4835924.sHtML
+
+原标题：本地简易配置中心动态管理
+简介：项目依赖安全扫描漏洞防范，扫描项目第三方依赖包，修复存在安全漏洞依赖，防范供应链攻击。
+ | 原文链接：m.dirjdz.asia/Article/details/2602581.sHtML
+
+原标题：express 中间件开发业务实践
+简介：golang go 网络编程 net 包基础，net 包 tcp udp socket 编程，监听接收连接，读写数据。
+ | 原文链接：m.dirjdz.asia/Article/details/4712551.sHtML
+
+原标题：Troubleshoot：跨库关联查询，性能急剧恶化
+简介：Git 子模块更新代码不全修复，正确更新 Git 子模块，拉取子模块完整代码，解决子模块目录为空问题。
+ | 原文链接：m.dirjdz.asia/Article/details/9235724.sHtML
+
+原标题：Hands‑on：编写GitLabCI配置自动测试部署
+简介：golang os 环境变量读取设置，os.Getenv os.Setenv os.Unsetenv 读写环境变量，环境变量多值处理。
+ | 原文链接：m.dirjdz.asia/Article/details/4781470.sHtML
+
+原标题：nodejs 日志轮转生产环境配置
+简介：golang redis 客户端业务使用，Go Redis 客户端对接，实现缓存、计数器，适配各类 Redis 业务场景。
+ | 原文链接：m.dirjdz.asia/Article/details/9489802.sHtML
+
+原标题：从零学习简单分页逻辑实现思路
+简介：golang sync.RWMutex 读写锁使用场景，读多写少场景读写锁，读共享写互斥，提升并发性能。
+ | 原文链接：m.dirjdz.asia/Article/details/2113587.sHtML
+
+原标题：开发记录：接口请求日志记录完整中间件实现
+简介：golang 消息死信处理业务逻辑，Go 实现死信队列逻辑，消费失败消息转入死信，不阻塞正常消息队列。
+ | 原文链接：m.dirjdz.asia/Article/details/9368603.sHtML
+
+原标题：golang 多协程任务池并发控制
+简介：golang go 模板执行错误捕获，捕获模板执行错误，防止模板错误直接返回空白页面。
+ | 原文链接：m.dirjdz.asia/Article/details/6013364.sHtML
+
+原标题：后端大文件分片上传接口开发
+简介：防火墙 IP 白名单回调接口放行，配置防火墙白名单，放行第三方回调服务器 IP，接收回调请求正常。
+ | 原文链接：m.dirjdz.asia/Article/details/5812224.sHtML
+
+原标题：调优方案：Web服务内核socket参数调优
+简介：golang pdf 生成 go 服务端生成 pdf，服务端动态生成 pdf 报表文件，直接输出下载给到前端。
+ | 原文链接：m.dirjdz.asia/Article/details/7928888.sHtML
+
+原标题：方案设计：批量大数据导出系统架构拆解
+简介：golang go 死锁检测工具，静态检查、运行检测，发现 channel 锁导致死锁问题。
+ | 原文链接：m.dirjdz.asia/Article/details/0456809.sHtML
+
+原标题：golang 系统设计 lru 缓存算法实现思路
+简介：Docker 容器时区错误修复方案，修复 Docker 容器内部时区偏差，解决容器内时间不对引发业务逻辑异常。
+ | 原文链接：m.dirjdz.asia/Article/details/0041102.sHtML
+
+原标题：Debug：序列化反序列化版本不一致解析失败
+简介：golang interface 接口使用避坑，interface 判 nil 坑点，理解接口底层结构，避免判空逻辑失效。
+ | 原文链接：m.dirjdz.asia/Article/details/6056247.sHtML
+
+原标题：golang k8s 节点污点容忍度配置
+简介：golang nats 轻量消息队列 go 开发，nats 高性能轻量消息系统，发布订阅模式异步解耦业务。
+ | 原文链接：m.dirjdz.asia/Article/details/3823470.sHtML
+
+原标题：项目实践：分布式会话Redis存储落地实践
+简介：异步编程 Promise 执行流程解析，拆解异步执行顺序，理解回调与 Promise 差异，理清异步场景下代码执行逻辑。
+ | 原文链接：m.dirjdz.asia/Article/details/2902572.sHtML
+
+原标题：避坑：批量操作未分批次，一次性内存打爆
+简介：golang nil channel 阻塞特性，nil channel 读写永久阻塞，理解 nil channel 行为做逻辑控制。
+ | 原文链接：m.dirjdz.asia/Article/details/2500459.sHtML
+
+原标题：线上故障：慢查询拖垮整个数据库服务
+简介：golang go test 单元测试命令参数详解，gotest 参数覆盖率，指定测试用例，跳过测试，单元测试命令实操。
+ | 原文链接：m.dirjdz.asia/Article/details/1603659.sHtML
+
+原标题：安全笔记：HTTPSTLS配置安全加固实践
+简介：golang go 模板执行错误捕获，捕获模板执行错误，防止模板错误直接返回空白页面。
+ | 原文链接：m.dirjdz.asia/Article/details/6935472.sHtML
+
+原标题：golang k8s 本地 minikube 调试应用
+简介：系统文件描述符上限调大，调高操作系统文件描述符上限，解决高并发场景打开文件报错。
+ | 原文链接：m.dirjdz.asia/Article/details/4591567.sHtML
+
+原标题：golang redis 事务 multi exec 使用
+简介：前端骨架屏提升页面体验，实现页面骨架屏，数据未加载完成展示占位，优化页面白屏感知体验。
+ | 原文链接：m.dirjdz.asia/Article/details/4601600.sHtML
+
+原标题：golang 系统设计消息堆积排查扩容完整步骤
+简介：浏览器缓存强制刷新方案，设置 HTTP 缓存头，处理浏览器缓存旧静态资源，让用户加载更新后的页面。
+ | 原文链接：m.dirjdz.asia/Article/details/4745480.sHtML
+
+原标题：配置与镜像分离防止信息泄露
+简介：golang 数据库分表策略按时间分片，按时间维度分表，历史数据拆分，单表数据量控制保证查询性能。
+ | 原文链接：m.dirjdz.asia/Article/details/9035872.sHtML
+
+原标题：服务健康检查监控接口开发
+简介：nodejs 单元测试 jest 实操教程，Jest 单元测试实操，编写测试用例，mock 依赖，验证业务逻辑正确性。
+ | 原文链接：m.dirjdz.asia/Article/details/8156682.sHtML
+
+原标题：Performance：长连接管理优化减少连接重建开销
+简介：golang testing.TB Helper 标记辅助函数，t.Helper 标记辅助函数，报错打印真实调用位置。
+ | 原文链接：m.dirjdz.asia/Article/details/3825715.sHtML
+
+原标题：实战项目：GitSubmodule管理多仓库实践
+简介：golang goreleaser 自动版本发布打包，goreleaser 自动化打包发布，生成多平台二进制归档文件。
+ | 原文链接：m.dirjdz.asia/Article/details/1455681.sHtML
+
+原标题：Issue复现：内存泄漏定位完整复盘记录
+简介：golang 单元测试 mock http 请求，mock HTTP 外部接口，单元测试不依赖外部网络，保证用例稳定运行。
+ | 原文链接：m.dirjdz.asia/Article/details/2497258.sHtML
+
+原标题：新手向：开源项目依赖安装失败排查
+简介：golang kitex 超时重试熔断配置，kitex 配置调用超时、重试、熔断策略，保障微服务调用稳定性。
+ | 原文链接：m.dirjdz.asia/Article/details/3714668.sHtML
+
+原标题：Practice：实现请求大小限制中间件防护大报文
+简介：golang net.Conn 包装自定义连接，包装 net.Conn，统计读写字节，日志打印，超时控制。
+ | 原文链接：m.dirjdz.asia/Article/details/3024703.sHtML
+
+原标题：Debug：表单自动转义特殊字符业务逻辑出错
+简介：TCP 长连接参数优化 TIME_WAIT，调整 TCP 内核参数，优化长连接，减少大量 TIME_WAIT 连接占用资源。
+ | 原文链接：m.dirjdz.asia/Article/details/2124602.sHtML
+
+原标题：内存溢出问题现象识别排查
+简介：golang runtime.Gosched 主动让出调度，长计算循环主动 Gosched，让出调度权，防止其他协程饥饿。
+ | 原文链接：m.dirjdz.asia/Article/details/8056091.sHtML
+
+原标题：系统文件描述符上限调大
+简介：分布式 ID 生成器高并发实现，实现高性能分布式 ID 生成器，适配高并发业务，生成全局唯一 ID。
+ | 原文链接：m.dirjdz.asia/Article/details/3631581.sHtML
+
+原标题：部署实践：HTTPS证书自动续期配置实践
+简介：GitHub Markdown 文档语法汇总，整理 Markdown 常用语法，编写仓库 README、文档，提升开源项目文档排版质量。
+ | 原文链接：m.dirjdz.asia/Article/details/9680469.sHtML
+
+三、实战开发｜Practice
+原标题：golang 系统设计压测数据构造方法实现
+简介：golang sort 稳定排序 Stable，稳定排序保留相等元素原有顺序，业务需要稳定排序场景。
+ | 原文链接：m.dirjdz.asia/Article/details/8123761.sHtML
+
+原标题：模拟登录鉴权权限判断示例
+简介：golang gorm ORM 数据库操作，GORM 实操数据库 CRUD，模型定义，关联查询，简化 Go 数据库开发。
+ | 原文链接：m.dirjdz.asia/Article/details/1813690.sHtML
+
+原标题：CI 构建缓存加速编译速度
+简介：golang aes 对称加密解密示例，AES 对称加密解密实现，业务敏感数据加密存储传输。
+ | 原文链接：m.dirjdz.asia/Article/details/6900002.sHtML
+
+原标题：golang 系统设计数据库版本迁移回滚方案
+简介：golang snowflake 时钟回拨解决方案，雪花算法处理时钟回拨，防止生成重复 ID，保证 ID 全局唯一。
+ | 原文链接：m.dirjdz.asia/Article/details/6013244.sHtML
+
+原标题：Troubleshoot：CPU调度频繁上下文切换性能下降
+简介：golang context 超时取消实战案例，使用 context 控制协程、http 请求超时，自动终止超时任务，避免协程无限阻塞。
+ | 原文链接：m.dirjdz.asia/Article/details/4587912.sHtML
+
+原标题：实战项目：GitHubAction自动测试构建实践
+简介：数据库事务 ACID 原理讲解，拆解事务四大特性，理解事务隔离、原子性，明白事务如何保障数据安全。
+ | 原文链接：m.dirjdz.asia/Article/details/2553425.sHtML
+
+原标题：golang 系统设计 pr 评审合并完整流程
+简介：WebSocket 断线重连稳定优化，增加 WebSocket 断线自动重连逻辑，处理网络抖动，维持长连接稳定。
+ | 原文链接：m.dirjdz.asia/Article/details/8918084.sHtML
+
+原标题：实战项目：多实例部署会话一致性验证实践
+简介：OpenAPI 自动接口文档生成，集成 OpenAPI 工具，自动扫描代码生成接口文档，减少文档维护成本。
+ | 原文链接：m.dirjdz.asia/Article/details/2777465.sHtML
+
+原标题：Debug：Websocket频繁断开重连根因分析
+简介：golang aes cbc gcm 模式加密对比，AES‑CBC AES‑GCM 模式加密解密，理解两种模式差异选型。
+ | 原文链接：m.dirjdz.asia/Article/details/5012243.sHtML
+
+原标题：Practice：实现接口防重提交组件实践
+简介：golang context.WithValue 传递元数据，WithValue 只传 traceId 鉴权元数据，不要传业务大对象。
+ | 原文链接：m.dirjdz.asia/Article/details/2567880.sHtML
+
+原标题：Issue：日志输出包含敏感信息造成泄露风险
+简介：golang 模糊测试 go fuzz 基础编写，Fuzz 测试函数，自动生成随机输入，发现代码崩溃 panic。
+ | 原文链接：m.dirjdz.asia/Article/details/1556697.sHtML
+
+原标题：实践：Git工作流主干开发团队协作实践
+简介：golang makefile 多平台编译脚本，makefile 一键交叉编译多平台二进制，打包镜像，执行测试。
+ | 原文链接：m.dirjdz.asia/Article/details/1567200.sHtML
+
+原标题：golang 系统设计 tcc 事务简单原理业务示例
+简介：golang 滑动窗口限流算法 go 实现，滑动窗口限流，解决固定窗口临界流量突增漏洞，限流更精准。
+ | 原文链接：m.dirjdz.asia/Article/details/1895692.sHtML
+
+原标题：golang 系统设计异步化改造业务流程思路
+简介：golang 数据库连接耗尽排查思路，监控连接池状态，定位连接未归还，解决连接耗尽报错。
+ | 原文链接：m.dirjdz.asia/Article/details/2614699.sHtML
+
+原标题：架构复盘：容器资源隔离架构CPU内存限制设计
+简介：golang influxdb 时序数据库读写操作，influxdb 存储时序指标，业务指标监控数据存取。
+ | 原文链接：m.dirjdz.asia/Article/details/6057704.sHtML
+
+原标题：运维笔记：服务器定时任务运维脚本编写
+简介：golang os.Exit 退出程序注意 defer 不执行，os.Exit 会直接退出，不会执行 defer，优雅退出不要直接 os.Exit。
+ | 原文链接：m.dirjdz.asia/Article/details/3713505.sHtML
+
+原标题：golang 系统设计分表 id 生成策略对比
+简介：短信服务封装失败自动重试，封装短信发送组件，处理发送失败自动重试，兼容多短信服务商。
+ | 原文链接：m.dirjdz.asia/Article/details/5916702.sHtML
+
+原标题：性能复盘：慢查询日积月累拖垮数据库优化
+简介：golang go 单二进制文件静态编译交叉编译，交叉编译不同操作系统架构二进制文件，实现一次编译多平台运行。
+ | 原文链接：m.dirjdz.asia/Article/details/7461472.sHtML
+
+原标题：前端工程化 webpack 打包优化
+简介：golang toml 配置文件解析教程，Go 解析 Toml 格式配置，适用于项目配置管理场景。
+ | 原文链接：m.dirjdz.asia/Article/details/9579260.sHtML
+
+原标题：golang 时间时区处理避坑指南
+简介：golang fasthttp 高性能 http 库使用，fasthttp 高性能 http 实现，适合超高 QPS 场景，对比 net/http 差异。
+ | 原文链接：m.dirjdz.asia/Article/details/5047034.sHtML
+
+原标题：golang gin 中间件执行顺序讲解
+简介：数据库分表存储大表优化方案，对超大数据表做分表，拆分数据，降低单表数据量提升查询性能。
+ | 原文链接：m.dirjdz.asia/Article/details/3042368.sHtML
+
+原标题：golang 系统设计回调签名校验防伪造实现
+简介：golang 限流熔断放在代理层实践，代理层统一限流熔断，对后端服务做流量保护。
+ | 原文链接：m.dirjdz.asia/Article/details/9807714.sHtML
+
+原标题：HelloGitWorkflow：理解简单主干开发流程
+简介：golang grpc keepalive 保活配置，grpc keepalive 参数调优，检测断开僵死连接，释放无效连接资源。
+ | 原文链接：m.dirjdz.asia/Article/details/5367968.sHtML
+
+原标题：开发记录：跨域中间件完整配置与边界处理
+简介：nodejs 跨域中间件配置细节，Express 跨域中间件配置细节，处理预检请求，修复偶现跨域失效。
+ | 原文链接：m.dirjdz.asia/Article/details/9873534.sHtML
+
+原标题：安全笔记：CORS跨域配置错误安全风险
+简介：golang toml 配置文件解析教程，Go 解析 Toml 格式配置，适用于项目配置管理场景。
+ | 原文链接：m.dirjdz.asia/Article/details/4782333.sHtML
+
+原标题：架构复盘：业务系统中如何合理使用分库分表
+简介：golang go 死锁检测工具，静态检查、运行检测，发现 channel 锁导致死锁问题。
+ | 原文链接：m.dirjdz.asia/Article/details/6245466.sHtML
+
+原标题：调优方案：静态资源缓存头Cache‑Control优化
+简介：浏览器缓存强制刷新方案，设置 HTTP 缓存头，处理浏览器缓存旧静态资源，让用户加载更新后的页面。
+ | 原文链接：m.dirjdz.asia/Article/details/4927768.sHtML
+
+原标题：golang redis 发布订阅简单示例
+简介：集成测试业务流程编写示例，编写业务流程集成测试，覆盖完整业务链路，验证模块之间协同工作是否正常。
+ | 原文链接：m.dirjdz.asia/Article/details/7901800.sHtML
+
+原标题：Practice：实现异步回调处理通用组件封装
+简介：golang grafana 面板 go 业务指标可视化，prometheus 指标对接 grafana，配置监控面板可视化业务状态。
+ | 原文链接：m.dirjdz.asia/Article/details/8719009.sHtML
+
+原标题：golang defer panic 异常处理
+简介：golang atomic 原子操作整数，atomic 加减比较交换，无锁更新整型变量，简单计数器场景。
+ | 原文链接：m.dirjdz.asia/Article/details/3897879.sHtML
+
+原标题：开发记录：分布式ID生成器实现与压力测试
+简介：golang csv 百万级数据导入数据库，流式读取 csv 分批写入数据库，避免一次性加载全部数据。
+ | 原文链接：m.dirjdz.asia/Article/details/9346699.sHtML
+
+原标题：golang 系统设计事务消息 rocketmq 简单原理
+简介：golang cobra 命令行参数配置绑定，cobra 绑定配置文件环境变量命令行参数，多源配置合并。
+ | 原文链接：m.dirjdz.asia/Article/details/7887100.sHtML
+
+原标题：端口占用访问失败排查方案
+简介：golang 命令行参数解析开发，解析命令行入参，开发自定义 CLI 程序，读取启动参数配置服务。
+ | 原文链接：m.dirjdz.asia/Article/details/8090215.sHtML
+
+原标题：HelloCI：理解持续集成基础工作流程
+简介：WSL 搭建 Windows Linux 开发环境，配置 WSL 环境，在 Windows 系统使用 Linux 工具链，适配 Linux 开发项目。
+ | 原文链接：m.dirjdz.asia/Article/details/7343446.sHtML
+
+原标题：RPC 报文大小上限调优大请求
+简介：SourceMap 生成线上报错定位，项目打包生成 SourceMap 文件，线上报错可以还原源码，快速定位报错位置。
+ | 原文链接：m.dirjdz.asia/Article/details/5987664.sHtML
+
+原标题：golang docker 运行 etcd 本地测试
+简介：日志敏感信息脱敏泄露防护，日志打印时自动脱敏手机号身份证，避免日志输出泄露用户隐私数据。
+ | 原文链接：m.dirjdz.asia/Article/details/0457797.sHtML
+
+原标题：golang 系统设计 vscode go 插件调试配置实操
+简介：golang 分布式锁 redis 实现，基于 Redis 实现 Go 分布式锁，解决多实例并发竞争资源问题。
+ | 原文链接：m.dirjdz.asia/Article/details/5909001.sHtML
+
+原标题：golang 系统设计线上 ddl 变更安全执行思路
+简介：golang os 文件目录操作大全，文件创建删除重命名，目录遍历，文件信息读取，完成各类文件系统操作。
+ | 原文链接：m.dirjdz.asia/Article/details/9709990.sHtML
+
+原标题：golang 系统设计令牌桶漏桶算法对比
+简介：跨域偶现失败配置修复，解决跨域问题时而复现时而正常，定位配置漏配、请求头异常等隐性问题。
+ | 原文链接：m.dirjdz.asia/Article/details/4798993.sHtML
+
+原标题：设计思考：分布式系统时钟同步带来的架构问题
+简介：ServiceWorker 缓存页面更新清理，处理 ServiceWorker 缓存，实现页面新版本更新，用户可以加载最新页面。
+ | 原文链接：m.dirjdz.asia/Article/details/2496812.sHtML
+
+四、架构设计｜Architecture
+原标题：开源源码阅读拆解学习思路
+简介：golang 定时任务 cron 使用指南，Go 使用 Cron 库实现定时任务，配置 corn 表达式调度业务任务。
+ | 原文链接：m.dirjdz.asia/Article/details/5213580.sHtML
+
+原标题：Troubleshooting：代理环境下证书校验失败HTTPS报错
+简介：golang net/http/httptest 服务端模拟，httptest.NewRecorder 记录 handler 响应，校验返回状态码 body。
+ | 原文链接：m.dirjdz.asia/Article/details/3093467.sHtML
+
+原标题：实战：对象存储断点续传下载实践
+简介：内存溢出问题现象识别排查，识别内存溢出现象，梳理排查方向，定位内存持续上涨引发服务崩溃问题。
+ | 原文链接：m.dirjdz.asia/Article/details/2590145.sHtML
+
+原标题：golang mysql 避免 select * 查询
+简介：golang go 并发模式 or‑channel 信号合并，合并多个 done 信号，任意一个完成触发退出逻辑。
+ | 原文链接：m.dirjdz.asia/Article/details/3923579.sHtML
+
+原标题：提交第一个开源 PR 完整流程
+简介：golang go 死锁检测工具，静态检查、运行检测，发现 channel 锁导致死锁问题。
+ | 原文链接：m.dirjdz.asia/Article/details/8257135.sHtML
+
+原标题：golang kafka 消息丢失重复消费
+简介：golang http3 quic 客户端服务端示例，go 实现 http3 quic 服务端客户端，体验 quic 协议低延迟特性。
+ | 原文链接：m.dirjdz.asia/Article/details/9256914.sHtML
+
+原标题：大事务拆分回滚日志暴涨解决
+简介：golang hystrix 模式简易熔断实现，简易熔断组件，错误率达到阈值触发熔断，快速失败保护下游。
+ | 原文链接：m.dirjdz.asia/Article/details/9267907.sHtML
+
+原标题：golang 系统设计消息 partition 数量设置思路
+简介：golang tcp 四次挥手 go 程序行为，理解 tcp 四次挥手，处理连接关闭、重置、RST 包异常场景。
+ | 原文链接：m.dirjdz.asia/Article/details/3771379.sHtML
+
+原标题：golang 系统设计服务优雅停机完整流程
+简介：开发环境变量配置全平台教程，区分 Windows、macOS、Linux 系统，讲解环境变量配置、加载优先级与常见失效原因。
+ | 原文链接：m.dirjdz.asia/Article/details/3815798.sHtML
+
+原标题：避坑：预编译SQL失效，出现SQL注入风险
+简介：代理 HTTPS 证书访问异常处理，配置代理根证书，解决代理环境 HTTPS 证书校验失败无法访问外网。
+ | 原文链接：m.dirjdz.asia/Article/details/4712468.sHtML
+
+原标题：实战：单元测试+集成测试完整项目落地实践
+简介：服务健康检查监控接口开发，开发健康检查接口，反馈服务运行状态，供编排工具监控服务存活状态。
+ | 原文链接：m.dirjdz.asia/Article/details/4815707.sHtML
+
+原标题：golang 系统设计数据库扩容几种方式
+简介：golang go json 序列化自定义字段，json 标签控制字段名称、忽略字段、omitempty 空值忽略。
+ | 原文链接：m.dirjdz.asia/Article/details/0671355.sHtML
+
+原标题：安全复盘：业务数据脱敏防止泄露实践
+简介：golang 熔断降级简易组件开发，Go 简易熔断组件，下游故障触发熔断，保护上游服务不被拖垮。
+ | 原文链接：m.dirjdz.asia/Article/details/7045603.sHtML
+
+原标题：实战项目：搭建本地Mock服务快速开发联调
+简介：golang channel 关闭规则与坑点，关闭已经关闭 channel 会 panic，判断 channel 是否关闭正确写法。
+ | 原文链接：m.dirjdz.asia/Article/details/0804467.sHtML
+
+原标题：golang 系统设计开源项目依赖版本升级维护
+简介：golang go get 升级降级依赖版本，go get 指定版本升级降级依赖包，管理第三方库版本。
+ | 原文链接：m.dirjdz.asia/Article/details/4713469.sHtML
+
+原标题：golang 系统设计请求签名校验完整方案
+简介：golang netlink 系统信息获取，netlink 获取系统网络信息，网卡地址，内核网络状态读取。
+ | 原文链接：m.dirjdz.asia/Article/details/0470035.sHtML
+
+原标题：接口幂等性防重复请求实现
+简介：golang redis bloom 布隆过滤器 go‑redis，go‑redis 布隆过滤器，海量数据判断是否存在，减少数据库查询。
+ | 原文链接：m.dirjdz.asia/Article/details/2580224.sHtML
+
+原标题：方案设计：统一错误处理架构全链路方案
+简介：golang redis scan 遍历 key 避免阻塞，使用 scan 迭代遍历 redis 键，不用 keys 命令，防止阻塞 redis 服务。
+ | 原文链接：m.dirjdz.asia/Article/details/9661136.sHtML
+
+?
